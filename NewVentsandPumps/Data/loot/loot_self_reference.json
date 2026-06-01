@@ -1,0 +1,30 @@
+[
+  
+  { "strName" : "ItmVent01Loose", "aCOs" : [ "ItmVent01Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  {
+    "strName" : "ItmVent01Closed",
+    "aCOs"    : [
+      "ItmVent01Closed=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmVent01Open",
+    "aCOs"    : [
+      "ItmVent01Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmVent02Closed", "aCOs" : [ "ItmVent02Closed=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02Open", "aCOs" : [ "ItmVent02Open=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02OpenAlt1", "aCOs" : [ "ItmVent02OpenAlt1=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02OpenAlt2", "aCOs" : [ "ItmVent02OpenAlt2=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02OpenAlt3", "aCOs" : [ "ItmVent02OpenAlt3=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02Off", "aCOs" : [ "ItmVent02Off=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmVent02Loose", "aCOs" : [ "ItmVent02Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" }
+
+]

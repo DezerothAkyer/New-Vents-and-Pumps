@@ -1,0 +1,104 @@
+[
+  {
+    "strName" : "DcGasPpCH4",
+    "strCond" : "StatGasPpCH4",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpCH4", "fMin"     : 0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPpCO",
+    "strCond" : "StatGasPpCO",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpCO", "fMin"     : 0.0, "fMax"     : 0.3, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpCOWarning", "fMin"     : 0.3, "fMax"     : 3, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpCOUnsafe", "fMin"     : 3, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPpCO2",
+    "strCond" : "StatGasPpCO2",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpCO2", "fMin"     : 0.0, "fMax"     : 0.3, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpCO2Warning", "fMin"     : 0.3, "fMax"     : 3, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpCO2Unsafe", "fMin"     : 3, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPpH2SO4",
+    "strCond" : "StatGasPpH2SO4",
+    "fPref"   : 0.0,
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpH2SO4", "fMin"     : 0.0, "fMax"     : 0.002, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpH2SO4Warning", "fMin"     : 0.002, "fMax"     : 1, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpH2SO4Unsafe", "fMin"     : 1, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  
+  {
+    "strName" : "DcGasPpN2",
+    "strCond" : "StatGasPpN2",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpN2", "fMin"     : 75, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+
+  {
+    "strName" : "DcGasPpO2",
+    "strCond" : "StatGasPpO2",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpO2Alt3", "fMin"     : 5, "fMax"     : 10, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpO2Alt2", "fMin"     : 10, "fMax"     : 15, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpO2Alt1", "fMin"     : 15, "fMax"     : 20, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpO2", "fMin"     : 20, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPpSmoke",
+    "strCond" : "StatGasPpSmoke",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPpSmoke", "fMin"     : 0, "fMax"     : 0.05, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpSmokeWarning", "fMin"     : 0.05, "fMax"     : 0.2, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPpSmokeUnsafe", "fMin"     : 0.2, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+
+  {
+    "strName" : "DcGasPressure",
+    "strCond" : "StatGasPressure",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPressure01", "fMin"     : 0.0, "fMax"     : 3.039, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressure02", "fMin"     : 3.039, "fMax"     : 16, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressure03", "fMin"     : 16, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPressureBottle",
+    "strCond" : "StatGasPressure",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPressureEmpty", "fMin"     : 0.0, "fMax"     : 1, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureNominal", "fMin"     : 1, "fMax"     : 20684.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureOverCap", "fMin"     : 20684.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasPressureCan",
+    "strCond" : "StatGasPressure",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasPressureNearEmpty", "fMin"     : 0.0, "fMax"     : 2000.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureHalf", "fMin"     : 2000.0, "fMax"     : 20700.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureNominal", "fMin"     : 20700.0, "fMax"     : 38400.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureFull", "fMin"     : 38400.0, "fMax"     : 41400.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasPressureOverCap", "fMin"     : 41400.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcGasTemp",
+    "strCond" : "StatGasTemp",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcGasTemp01", "fMin"     : 0.0, "fMax"     : 296, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasTemp02", "fMin"     : 296, "fMax"     : 299, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcGasTemp03", "fMin"     : 299, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  }
+]

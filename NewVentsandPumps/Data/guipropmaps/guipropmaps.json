@@ -1,0 +1,323 @@
+[
+  {
+    "strName" : "AirPump",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Air Pump",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Unscrew for Pressure Sensor Input Signal",
+      "strValidCOTrigger01", "TIsAlarm2",
+      "strCondMonitor01", "IsReadyPumpAir",
+      "strInput01", ""
+    ]
+  },
+  {
+    "strName" : "AlarmPressureCO2",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "CO2 Pressure Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSAlarmCO2SwitchRedAllow",
+      "strInteractionClear", "MSAlarmCO2SwitchGreenAllow",
+      "strCTClear", "TIsGasPressureSafeCO2"
+    ]
+  },
+  {
+    "strName" : "AlarmPressureCO2-2",
+    "dictGUIPropMap"       : [
+      "strPoint", "RoomA",
+      "strFriendlyName", "CO2 Pressure Alarm",
+      "mapTests", "TIsGasPressureCO2Safe,MSAlarmCO2SwitchGreenAllow,TIsGasPressureCO2Mid,MSAlarmCO2SwitchYellowAllow,TIsGasPressureCO2High,MSAlarmCO2SwitchRedAllow"
+    ]
+  },
+  {
+    "strName" : "AlarmPressureContaminants",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "Contaminants Pressure Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSAlarmContaminantsSwitchRedAllow",
+      "strInteractionClear", "MSAlarmContaminantsSwitchGreenAllow",
+      "strCTClear", "TIsGasPressureSafeContaminants"
+    ]
+  },
+  {
+    "strName" : "AlarmPressureN2",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "N2 Pressure Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSAlarmN2SwitchRedAllow",
+      "strInteractionClear", "MSAlarmN2SwitchGreenAllow",
+      "strCTClear", "TIsGasPressureSafeN2"
+    ]
+  },
+  {
+    "strName" : "AlarmPressureO2",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSAlarmO2SwitchRedAllow",
+      "strInteractionClear", "MSAlarmO2SwitchGreenAllow",
+      "strCTClear", "TIsGasPressureSafeO2"
+    ]
+  },
+  {
+    "strName" : "AlarmPressureSmoke",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "Smoke Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSAlarmSmokeSwitchRedAllow",
+      "strInteractionClear", "MSAlarmSmokeSwitchGreenAllow",
+      "strCTClear", "TIsGasPressureSafeSmoke"
+    ]
+  },
+  {
+    "strName" : "AlarmTemp",
+    "dictGUIPropMap"       : [
+      "strPoint", "RoomA",
+      "strFriendlyName", "Thermostat",
+      "mapTests", "TIsTempLow,MSAlarmTempSwitchBlueAllow,TIsTempHigh,MSAlarmTempSwitchRedAllow,TIsTempMid,MSAlarmTempSwitchWhiteAllow"
+    ]
+  },
+  {
+    "strName" : "AlarmUI",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIOnOff",
+      "strFriendlyName", "Alarm",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Alarm Override"
+    ]
+  },
+  {
+    "strName" : "AtmoScrubber",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "AtmoScrubber",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Unscrew for CO2 Sensor Input Signal",
+      "strValidCOTrigger01", "TIsAlarm2",
+      "strSubPoint", "ignore",
+      "strCondMonitor01", "IsReadyHeat",
+      "strInput01", ""
+    ]
+  },
+  {
+    "strName" : "AtmoScrubber02",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Contaminants AtmoScrubber",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Unscrew for Contaminants Sensor Input Signal",
+      "strValidCOTrigger01", "TIsAlarm2",
+      "strSubPoint", "ignore",
+      "strCondMonitor01", "IsReadyPumpAir",
+      "strInput01", ""
+    ]
+  },
+  {
+    "strName" : "Cooler",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Cooler",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Unscrew for Thermostat Sensor Input Signal",
+      "strValidCOTrigger01", "TIsAlarmTemp",
+      "strCondMonitor01", "DcGasTemp03",
+      "strSubPoint", "Cool",
+      "strAddPoint", "Heat",
+      "strInput01", ""
+    ]
+  },
+  {
+    "strName" : "Heater",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Heater",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Unscrew for Thermostat Sensor Input Signal",
+      "strValidCOTrigger01", "TIsAlarmTemp",
+      "strCondMonitor01", "DcGasTemp01",
+      "strSubPoint", "ignore",
+      "strAddPoint", null,
+      "strInput01", ""
+    ]
+  },
+  {
+    "strName": "Vent02Pressure",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomB",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2"
+    ]
+  },
+  {
+    "strName": "Vent02Pressureb",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2"
+    ]
+  },
+
+{
+    "strName": "Vent02PressureAlt1",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomB",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting1"
+
+    ]
+  },
+  {
+    "strName": "Vent02PressurebAlt1",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting1"
+    ]
+  },
+
+{
+    "strName": "Vent02PressureAlt2",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomB",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting2"
+    ]
+  },
+  {
+    "strName": "Vent02PressurebAlt2",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting2"
+    ]
+  },
+
+{
+    "strName": "Vent02PressureAlt3",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomB",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting3"
+    ]
+  },
+  {
+    "strName": "Vent02PressurebAlt3",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", null,
+      "strFriendlyName", "O2 Pressure Vent",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strPoint", "RoomA",
+      "strSignalCond", "IsReadyPressureSense",
+      "strInteractionAlarm", "MSVent02CloseO2Allow",
+      "strInteractionClear", null,
+      "strCTClear", "TIsGasPressureSafeO2AlternateSetting3"
+    ]
+  }
+]

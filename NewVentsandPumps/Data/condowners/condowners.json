@@ -1,0 +1,2661 @@
+
+[
+  {
+    "strName" : "ItmAirPump02Dmg",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Damaged)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "strAudioEmitter" : "ItmAirPump02DmgSound"
+  },
+  {
+    "strName" : "ItmAirPump02DmgLoose",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Damaged, Loose)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPump02DebugLoose",
+    "strAudioEmitter" : "ItmAirPump02DmgSound"
+  },
+  {
+    "strName" : "ItmAirPump02Off",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Off)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPump02"
+  },
+  {
+    "strName" : "ItmAirPump02OffLoose",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Loose)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02DebugLoose"
+  },
+  {
+    "strName" : "ItmAirPump02OnG",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerA,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump02,Panel A",
+      "Destructable,StatDamage,ACTAirPump02OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPump02",
+    "strAudioEmitter": "ItmAirPump02OnGSound"
+  },
+  {
+    "strName" : "ItmAlarmCO2Off",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Off)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmCO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureCO2"
+  },
+  {
+    "strName" : "ItmAlarmCO2OffLoose",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Loose)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmCO2DmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2OffLoose"
+  },
+  {
+    "strName" : "ItmAlarmCO2Dmg",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Damaged)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x121.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2OffDmg02",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmAlarmCO2DmgLoose",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Damaged, Loose)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x121.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2OffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmCO2OnG",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2OnG",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsGreen=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureCO2",
+      "Destructable,StatDamage,ACTAlarmCO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureCO2",
+    "strAudioEmitter": "ItmAlarmCO2OnGSound"
+  },
+  {
+    "strName" : "ItmAlarmCO2OnY",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Warning)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2OnY",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsYellow=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureCO2",
+      "Destructable,StatDamage,ACTAlarmCO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureCO2",
+    "strAudioEmitter": "ItmAlarmCO2OnYSound"
+  },
+  {
+    "strName" : "ItmAlarmCO2OnR",
+    "strNameShort" : "CO2 Alarm",
+    "strNameFriendly" : "CO2 Pressure Alarm (Alert)",
+    "strDesc" : "A mass market Kang Industrial carbon dioxide sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 1kpa of CO2.",
+    "strItemDef" : "ItmAlarmCO2OnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmCO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureCO2",
+      "Destructable,StatDamage,ACTAlarmCO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmCO2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureCO2",
+    "strAudioEmitter": "ItmAlarmCO2OnRSound"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsOff",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm (Off)",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsOff",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmContaminantsDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureContaminants"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsOffLoose",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm (Loose)",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsOffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmContaminantsDmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOffLoose"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsDmg",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm (Damaged)",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsDmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x121.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOffDmg02",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmAlarmContaminantsDmgLoose",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm (Damaged, Loose)",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsDmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x121.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsOnG",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsOnG",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsGreen=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureContaminants",
+      "Destructable,StatDamage,ACTAlarmContaminantsDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOff",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureContaminants",
+    "strAudioEmitter": "ItmAlarmContaminantsOnGSound"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsOnR",
+    "strNameShort" : "Contaminants Alarm",
+    "strNameFriendly" : "Contaminants Pressure Alarm (Alert)",
+    "strDesc" : "A mass market Kang Industrial contaminants sensor and alarm. With proper wiring and placement, this sensor can detect dangerous environmental mixtures that exceed 0.001kpa of contaminants such as H2SO4 or particulates.",
+    "strItemDef" : "ItmAlarmContaminantsOnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmContaminants=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x634.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureContaminants",
+      "Destructable,StatDamage,ACTAlarmContaminantsDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmContaminantsOff",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureContaminants",
+    "strAudioEmitter": "ItmAlarmContaminantsOnRSound"
+  },
+  {
+    "strName" : "ItmAlarmN2Off",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm (Off)",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x541.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmN2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureN2"
+  },
+  {
+    "strName" : "ItmAlarmN2OffLoose",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm (Loose)",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a cabin falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x541.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmN2DmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2OffLoose"
+  },
+  {
+    "strName" : "ItmAlarmN2Dmg",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm (Damaged)",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a cabin falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x105.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2OffDmg02",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmAlarmN2DmgLoose",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm (Damaged, Loose)",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a cabin falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x105.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2OffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmN2OnG",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a cabin falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2OnG",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsGreen=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x541.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureN2",
+      "Destructable,StatDamage,ACTAlarmN2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureN2",
+    "strAudioEmitter": "ItmAlarmN2OnGSound"
+  },
+  {
+    "strName" : "ItmAlarmN2OnR",
+    "strNameShort" : "N2 Alarm",
+    "strNameFriendly" : "N2 Pressure Alarm (Alert)",
+    "strDesc" : "A nitrogen alarm manufactured by Kang Industrial. Tracks and alerts when N2 content in a cabin falls below 80kPa. Typically used in environments where the atmosphere is modeled after Earth-normal.",
+    "strItemDef" : "ItmAlarmN2OnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmN2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x541.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureN2",
+      "Destructable,StatDamage,ACTAlarmN2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmN2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureN2",
+    "strAudioEmitter": "ItmAlarmN20nRSound"
+  },
+  {
+    "strName" : "ItmAlarmO2Off",
+    "strNameShort" : "O2 Alarm",
+    "strNameFriendly" : "O2 Pressure Alarm (Off)",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strItemDef" : "ItmAlarmO2Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x659.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureO2"
+  },
+  {
+    "strName" : "ItmAlarmO2OffLoose",
+    "strNameShort" : "O2 Alarm",
+    "strItemDef" : "ItmAlarmO2OffLoose",
+    "strNameFriendly" : "O2 Pressure Alarm (Loose)",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x659.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmO2DmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2OffLoose"
+  },
+  {
+    "strName" : "ItmAlarmO2Dmg",
+    "strNameShort" : "O2 Alarm",
+    "strNameFriendly" : "O2 Pressure Alarm (Damaged)",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strItemDef" : "ItmAlarmO2Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x134.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2OffDmg02",
+    "aTickers" : [ 
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmAlarmO2DmgLoose",
+    "strNameShort" : "O2 Alarm",
+    "strItemDef" : "ItmAlarmO2DmgLoose",
+    "strNameFriendly" : "O2 Pressure Alarm (Damaged, Loose)",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x134.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2OffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmO2OnG",
+    "strNameShort" : "O2 Alarm",
+    "strNameFriendly" : "O2 Pressure Alarm",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strItemDef" : "ItmAlarmO2OnG",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsGreen=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x659.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureO2",
+      "Destructable,StatDamage,ACTAlarmO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSenseO2"
+    ],
+    "jsonPI"            : "AlarmPressureO2",
+    "strAudioEmitter"   : "ItmAlarmO2OnGTurnOff"
+  },
+  {
+    "strName" : "ItmAlarmO2OnR",
+    "strNameShort" : "O2 Alarm",
+    "strNameFriendly" : "O2 Pressure Alarm (Alert)",
+    "strDesc" : "The Kang Industrial automated oxygen sensor and alarm, vital to maintaining safe and breathable environments. When properly installed and wired, this alarm will sound if O2 levels dip below 16kpa.",
+    "strItemDef" : "ItmAlarmO2OnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmO2=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x659.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureO2",
+      "Destructable,StatDamage,ACTAlarmO2Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmO2Off",
+    "aTickers" : [ 
+      "Power",
+      "PressureSenseO2"
+    ],
+    "jsonPI"            : "AlarmPressureO2",
+    "strAudioEmitter"   : "ItmAlarmO2OnRTurnOn"
+  },
+  {
+    "strName" : "ItmAlarmSmokeOff",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm (Off)",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeOff",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x256.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x2",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmSmokeDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureSmoke"
+  },
+  {
+    "strName" : "ItmAlarmSmokeOffLoose",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm (Loose)",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeOffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x256.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x2",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmSmokeDmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeLoose"
+  },
+  {
+    "strName" : "ItmAlarmSmokeDmg",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm (Damaged)",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeDmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x51.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x5",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeOffDmg02",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmAlarmSmokeDmgLoose",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm (Damaged, Loose)",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeDmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsOff=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x51.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x5",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeOffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmSmokeOnG",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeOnG",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsGreen=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x256.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureSmoke",
+      "Destructable,StatDamage,ACTAlarmSmokeDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeOff",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureSmoke",
+    "strAudioEmitter": "ItmAlarmSmokeOnGSound"
+  },
+  {
+    "strName" : "ItmAlarmSmokeOnR",
+    "strNameShort" : "Smoke Alarm",
+    "strNameFriendly" : "Smoke Alarm (Alert)",
+    "strDesc" : "A mass market Halvorson smoke detector and alarm. An luxury for spacers who prefer their environments breathable and untoasted. Just be sure to deactivate manually before smoke breaks.",
+    "strItemDef" : "ItmAlarmSmokeOnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsHalvorson=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1",
+      "IsAlarmSmoke=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x256.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "GasPressureSense,AlarmPressureSmoke",
+      "Destructable,StatDamage,ACTAlarmSmokeDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmSmokeOff",
+    "aTickers" : [ 
+      "Power",
+      "PressureSense"
+    ],
+    "jsonPI"            : "AlarmPressureSmoke",
+    "strAudioEmitter": "ItmAlarmSmokeOnRSound"
+  },
+  {
+    "strName" : "ItmAlarmTempOff",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Off)",
+    "strItemDef" : "ItmAlarmTempOff",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x116.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmTempDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureTemp"
+  },
+  {
+    "strName" : "ItmAlarmTempOffLoose",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Loose)",
+    "strItemDef" : "ItmAlarmTempOffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x116.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmTempDmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOffLoose"
+  },
+  {
+    "strName" : "ItmAlarmTempDmg",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Damaged)",
+    "strItemDef" : "ItmAlarmTempDmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x23.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOffDmg02",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmAlarmTempDmgLoose",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Damaged, Loose)",
+    "strItemDef" : "ItmAlarmTempDmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsOff=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "StatBasePrice=1.0x23.0",
+      "StatDismantleProgressMax=1.0x10",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatRepairProgressMax=1.0x90",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultExtraFragile"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAlarmDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR",
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOffDmg02Loose"
+  },
+  {
+    "strName" : "ItmAlarmTempOnB",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Too Cold)",
+    "strItemDef" : "ItmAlarmTempOnB",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsBlue=1.0x1",
+      "DcGasTemp01=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x116.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "Sensor,AlarmTemp",
+      "Destructable,StatDamage,ACTAlarmTempDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureTemp",
+    "strAudioEmitter": "ItmAlarmTempOnBSound"
+  },
+  {
+    "strName" : "ItmAlarmTempOnR",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat (Too Warm)",
+    "strItemDef" : "ItmAlarmTempOnR",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsRed=1.0x1",
+      "DcGasTemp03=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x116.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "Sensor,AlarmTemp",
+      "Destructable,StatDamage,ACTAlarmTempDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureTemp"
+  },
+  {
+    "strName" : "ItmAlarmTempOnW",
+    "strNameShort" : "Thermostat",
+    "strNameFriendly" : "Thermostat",
+    "strItemDef" : "ItmAlarmTempOnW",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAlarm"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAlarmTemp=1.0x1",
+      "IsAlarm2=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsWhite=1.0x1",
+      "StatBasePrice=1.0x116.0",
+      "StatDismantleProgressMax=1.0x110",
+      "StatInstallProgressMax=1.0x30",
+      "StatUninstallProgressMax=1.0x30",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategorySensors=1.0x1",
+      "IsSolidState=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,0",
+      "PowerSource,0,16"
+    ],
+    "aUpdateCommands" : [
+      "Sensor,AlarmTemp",
+      "Destructable,StatDamage,ACTAlarmTempDmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AlarmUI",
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmAlarmTempOff",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AlarmPressureTemp",
+    "strAudioEmitter": "ItmAlarmTempOnWSound"
+  },
+  {
+    "strName" : "ItmVent01Closed",
+    "strNameShort" : "Vent",
+    "strNameFriendly" : "Air Vent (Closed)",
+    "strDesc" : "The Kang FF Series air vents, commonly found on ships as part of the life support system. Used to control free flow of gas between compartments.",
+    "strItemDef" : "ItmVent01Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentOpenStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x335.0",
+      "StatDismantleProgressMax=1.0x20",
+      "StatInstallProgressMax=1.0x400",
+      "StatUninstallProgressMax=1.0x400",
+      "StatMass=1.0x8",
+      "StatDamageMax=1.0x15",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVent01Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVent01Closed",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmVent01Open",
+    "strNameShort" : "Vent",
+    "strNameFriendly" : "Air Vent (Open)",
+    "strDesc" : "The Kang FF Series air vents, commonly found on ships as part of the life support system. Used to control free flow of gas between compartments.",
+    "strItemDef" : "ItmVent01Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsOpen=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x335.0",
+      "StatDismantleProgressMax=1.0x20",
+      "StatInstallProgressMax=1.0x400",
+      "StatUninstallProgressMax=1.0x400",
+      "StatMass=1.0x8",
+      "StatDamageMax=1.0x15",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "Destructable,StatDamage,ACTVent01Dmg,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmVent01Open",
+    "aTickers" : [ 
+    ]
+  },
+  {
+    "strName" : "ItmVent01Loose",
+    "strNameShort" : "Vent",
+    "strNameFriendly" : "Air Vent (Loose)",
+    "strDesc" : "The Kang FF Series air vents, commonly found on ships as part of the life support system. Used to control free flow of gas between compartments.",
+    "strItemDef" : "ItmVent01Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x335.0",
+      "StatDismantleProgressMax=1.0x20",
+      "StatInstallProgressMax=1.0x400",
+      "StatUninstallProgressMax=1.0x400",
+      "StatMass=1.0x8",
+      "StatDamageMax=1.0x15",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVent01Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVent01Loose"
+  },
+  
+  {
+    "strName" : "ItmVent02Closed",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Closed)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentOpenStartAlt1",
+      "MSVentOpenStartAlt2",
+      "MSVentOpenStartAlt3",
+      "MSVentOpenStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmVent02Closed",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02Off",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Off)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentOpenStartAlt1",
+      "MSVentOpenStartAlt2",
+      "MSVentOpenStartAlt3",
+      "MSVentOpenStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmVent02Closed",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02Open",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Open)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentAlt1",
+      "MSVentAlt2",
+      "MSVentAlt3",
+      "MSVentCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "GasPressureSense,Vent02Pressure",
+      "GasPressureSense,Vent02Pressureb",
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power",
+      "PressureSense"
+    ],
+    "strPortraitImg"  : "ItmVent02Open",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02OpenAlt1",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Open, 15KpA, Pressure Ceiling Active)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentDefault",
+      "MSVentAlt2",
+      "MSVentAlt3",
+      "MSVentCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "GasPressureSense,Vent02PressureAlt1",
+      "GasPressureSense,Vent02PressurebAlt1",
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power",
+      "PressureSense"
+    ],
+    "strPortraitImg"  : "ItmVent02Open",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02OpenAlt2",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Open, 10 KpA)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentDefault",
+      "MSVentAlt1",
+      "MSVentAlt3",
+      "MSVentCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "GasPressureSense,Vent02PressureAlt2",
+      "GasPressureSense,Vent02PressurebAlt2",
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power",
+      "PressureSense"
+    ],
+    "strPortraitImg"  : "ItmVent02Open",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02OpenAlt3",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Open, 5 KpA)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "MSVentDefault",
+      "MSVentAlt1",
+      "MSVentAlt2",
+      "MSVentCloseStart"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,RoomA,RoomB,0.2",
+      "GasPressureSense,Vent02PressureAlt3",
+      "GasPressureSense,Vent02PressurebAlt3",
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power",
+      "PressureSense"
+    ],
+    "strPortraitImg"  : "ItmVent02Open",
+    "jsonPI"            : "Vent02"
+  },
+  {
+    "strName" : "ItmVent02Loose",
+    "strNameShort" : "Auto-Vent",
+    "strNameFriendly" : "Auto Air Vent (Loose)",
+    "strDesc" : "The Kang VF Series air vents, commonly found on higher-end ships as part of the life support system, controlling free flow of gas between compartments. When powered, this advanced model will automatically seal closed when sensing unsafe Oxygen pressure on either side and will require manual opening.",
+    "strItemDef" : "ItmVent02Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirVent=1.0x1",
+      "IsKang=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTVent02Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmVent02Loose"
+  }
+]

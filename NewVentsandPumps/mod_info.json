@@ -1,0 +1,10 @@
+[
+  {
+    "strName": "NewVentsandPumps",
+    "strAuthor": "Dezeroth",
+    "strModURL": "https://bluebottlegames.com/games/ostranauts",
+    "strGameVersion": "0.15.0.37",
+    "strModVersion": ".01",
+    "strNotes": "Modify existing vents and pumps, as well as add new ones. In particular, at this time, adds three new modes to the Auto Vent; a 15KpA mode, a 10KpA mode, and a 5KpA mode. "
+  }
+]

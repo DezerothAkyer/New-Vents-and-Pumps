@@ -1,0 +1,282 @@
+[
+  {
+    "strName" : "ItmAlarmComponents",
+    "aCOs"    : [
+      "ItmComponentMobo01=0.5x1",
+      "ItmPartsElecSmall01=0.5x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmDismantle",
+    "aCOs"    : [
+      "ItmComponentMobo01=1.0x1",
+      "ItmPartsElecSmall01=1.0x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmCO2Damage",
+    "aCOs"    : [
+      "ItmAlarmCO2Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmCO2LooseDamage",
+    "aCOs"    : [
+      "ItmAlarmCO2DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsDamage",
+    "aCOs"    : [
+      "ItmAlarmContaminantsDmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmContaminantsLooseDamage",
+    "aCOs"    : [
+      "ItmAlarmContaminantsDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmN2Damage",
+    "aCOs"    : [
+      "ItmAlarmN2Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmN2LooseDamage",
+    "aCOs"    : [
+      "ItmAlarmN2DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmO2Damage",
+    "aCOs"    : [
+      "ItmAlarmO2Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmO2LooseDamage",
+    "aCOs"    : [
+      "ItmAlarmO2DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmSmokeDamage",
+    "aCOs"    : [
+      "ItmAlarmSmokeDmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmSmokeLooseDamage",
+    "aCOs"    : [
+      "ItmAlarmSmokeDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmTempDamage",
+    "aCOs"    : [
+      "ItmAlarmTempDmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAlarmTempLooseDamage",
+    "aCOs"    : [
+      "ItmAlarmTempDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAlarmComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+  {
+    "strName" : "ItmAirPump02Damage",
+    "aCOs"    : [
+      "ItmAirPump02Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPump02LooseDamage",
+    "aCOs"    : [
+      "ItmAirPump02DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpComponents",
+    "aCOs"    : [
+      "ItmComponentMotor01=0.5x1",
+      "ItmPartsMechSmall01=1.0x1-3"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpComponentsShell",
+    "aCOs"    : [      
+      "ItmScrapTrash=1.0x1-2",
+      "ItmScrapSteel=0.5x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDismantle",
+    "aCOs"    : [
+      "ItmComponentMotor01=1.0x1",
+      "ItmPartsMechSmall01=1.0x3",
+      "ItmScrapTrash=1.0x2",
+      "ItmScrapSteel=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+
+  {
+    "strName" : "ItmTurboPumpComponents",
+    "aCOs"    : [
+      "ItmComponentMotor01=0.5x1",
+      "ItmHeatSink01=0.5x1",
+      "ItmPartsElecSmall01=0.5x1-7",
+      "ItmPartsMechSmall01=1.0x1-4"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmTurboPumpComponentsShell",
+    "aCOs"    : [      
+      "ItmScrapTrash=1.0x1-3",
+      "ItmScrapSteel=0.5x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmTurboPumpDismantle",
+    "aCOs"    : [
+      "ItmComponentMotor01=1.0x1",
+      "ItmHeatSink01=1.0x1",
+      "ItmPartsElecSmall01=1.0x7",
+      "ItmPartsMechSmall01=1.0x4",
+      "ItmScrapTrash=1.0x3",
+      "ItmScrapSteel=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmVentComponents",
+    "aCOs"    : [
+      "ItmPartsMechSmall01=0.5x1",
+      "ItmScrapSteel=0.5x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmVentDismantle",
+    "aCOs"    : [
+      "ItmPartsMechSmall01=1.0x1",
+      "ItmScrapSteel=1.0x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmVent02Components",
+    "aCOs"    : [
+      "ItmPartsMechSmall01=0.5x1",
+      "ItmPartsElecSmall01=0.5x1-2",
+      "ItmComponentMotor01=0.5x1",
+      "ItmScrapSteel=0.5x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmVent02Dismantle",
+    "aCOs"    : [
+      "ItmPartsMechSmall01=1.0x1",
+      "ItmPartsElecSmall01=0.5x2",
+      "ItmComponentMotor01=0.5x1",
+      "ItmScrapSteel=1.0x1",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  }
+]
