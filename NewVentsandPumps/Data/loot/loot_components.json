@@ -162,6 +162,49 @@
     ],
     "strType" : "item"
   },
+
+  {
+    "strName" : "ItmAirPump02ColdTempDamage",
+    "aCOs"    : [
+      "ItmAirPump02ColdTempDmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPump02ColdTempLooseDamage",
+    "aCOs"    : [
+      "ItmAirPump02ColdTempDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+  {
+    "strName" : "ItmAirPump02HotTempDamage",
+    "aCOs"    : [
+      "ItmAirPump02HotTempDmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPump02HotTempLooseDamage",
+    "aCOs"    : [
+      "ItmAirPump02HotTempDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
   {
     "strName" : "ItmAirPumpComponents",
     "aCOs"    : [

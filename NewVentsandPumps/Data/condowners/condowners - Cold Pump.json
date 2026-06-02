@@ -1,0 +1,254 @@
+
+[
+  {
+    "strName" : "ItmAirPump02ColdTempDmg",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Damaged)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureCold",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "strAudioEmitter" : "ItmAirPump02DmgSound"
+  },
+  {
+    "strName" : "ItmAirPump02ColdTempDmgLoose",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Damaged, Loose)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureCold"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPump02DebugLoose",
+    "strAudioEmitter" : "ItmAirPump02DmgSound"
+  },
+  {
+    "strName" : "ItmAirPump02ColdTempOff",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Cold Temp, Off)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureCold",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPump02"
+  },
+  {
+    "strName" : "ItmAirPump02ColdTempOffLoose",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump (Loose)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPump02OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureCold"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02DebugLoose"
+  },
+  {
+    "strName" : "ItmAirPump02OnGColdTemp",
+    "strNameShort" : "Pump",
+    "strNameFriendly" : "Air Pump(Cold Temp)",
+    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strItemDef" : "ItmAirPump02Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerA,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump02,Panel A",
+      "Destructable,StatDamage,ACTAirPump02OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureCold",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPump02Debug",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPump02",
+    "strAudioEmitter": "ItmAirPump02OnGSound"
+  }
+]

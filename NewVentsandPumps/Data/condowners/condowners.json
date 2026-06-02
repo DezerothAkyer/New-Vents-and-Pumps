@@ -251,6 +251,8 @@
     "jsonPI"            : "AirPump02",
     "strAudioEmitter": "ItmAirPump02OnGSound"
   },
+
+
   {
     "strName" : "ItmAlarmCO2Off",
     "strNameShort" : "CO2 Alarm",
@@ -2004,6 +2006,7 @@
       "IsAlarm2=1.0x1",
       "IsBlue=1.0x1",
       "DcGasTemp01=1.0x1",
+      "IsReadyPumpAir=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
       "IsSolid=1.0x1.0",
       "StatBasePrice=1.0x116.0",
@@ -2056,6 +2059,7 @@
       "IsInstalled=1.0x1",
       "IsPowered=1.0x1",
       "IsAlarmTemp=1.0x1",
+      "IsReadyPumpAir=1.0x1",
       "IsAlarm2=1.0x1",
       "IsRed=1.0x1",
       "DcGasTemp03=1.0x1",

@@ -1,0 +1,93 @@
+[
+    {
+        "strName" : "ItmAirPump03DmgColdTemp",
+        "strNameFriendly" : "Air Pump (Cold Temp, Damaged)",
+        "strImg" : "ItmAirPump02DmgT",
+        "strImgNorm" : "ItmAirPump02DmgTn",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmAirPump02DmgT",
+        "strCOBase"    : "ItmAirPump02Dmg",
+        "strCondLoot"    : "CNDOLAirPump05",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump03ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump03OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump03ColdTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03DmgColdTempLoose",
+        "strNameFriendly" : "Air Pump (Cold Temp, Damaged, Loose)",
+        "strImg" : "ItmAirPump02DmgTLoose",
+        "strImgNorm" : "ItmAirPump02DmgTLoosen",
+        "strImgDamaged" : "ItmAirPump02DmgTLoose",
+        "strPortraitImg" : "ItmAirPump02DmgTLoose",
+        "strCOBase"    : "ItmAirPump02DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump05",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump03ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump03OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump03ColdTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03ColdTempOff",
+        "strNameFriendly" : "Air Pump (Cold Temp, Off)",
+        "strImg" : "ItmAirPump02OffT",
+        "strImgNorm" : "ItmAirPump02OffTn",
+        "strImgDamaged" : "ItmAirPump02DmgT",
+        "strPortraitImg" : "ItmAirPump02OffT",
+        "strCOBase"    : "ItmAirPump02Off",
+        "strCondLoot"    : "CNDOLAirPump05",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump03ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump03OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump03ColdTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03ColdTempOffLoose",
+        "strNameFriendly" : "Air Pump (Cold Temp, Loose)",
+        "strImg" : "ItmAirPump02OffTLoose",
+        "strImgNorm" : "ItmAirPump02OffTLoosen",
+        "strImgDamaged" : "ItmAirPump02DmgTLoose",
+        "strPortraitImg" : "ItmAirPump02OffTLoose",
+        "strCOBase"    : "ItmAirPump02OffLoose",
+        "strCondLoot"    : "CNDOLAirPump05",
+        "mapSlotEffects" : [
+            "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump03ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump03OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump03ColdTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03OnGColdTemp",
+        "strNameFriendly" : "Air Pump (OnG, Cold Temp)",
+        "strImg" : "ItmAirPump02OffT",
+        "strImgNorm" : "ItmAirPump02OffTn",
+        "strImgDamaged" : "ItmAirPump02DmgT",
+        "strPortraitImg" : "ItmAirPump02OffT",
+        "strCOBase"    : "ItmAirPump02OnG",
+        "strCondLoot"    : "CNDOLAirPump05",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump03ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump03OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump03ColdTempOffLoose"
+        ]
+    }
+]  

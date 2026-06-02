@@ -1,0 +1,97 @@
+[
+
+    {
+        "strName" : "ItmAirPump01DmgHotTemp",
+        "strNameFriendly" : "Turbo Air Pump (Damaged, Hot Temp)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01DmgT",
+        "strImgNorm" : "ItmAirPump01DmgTn",
+        "strPortraitImg" : "ItmAirPump01DmgT",
+        "strCOBase"    : "ItmAirPump02HotTempDmg",
+        "strCondLoot"    : "CNDOLAirPump04Dmg",
+        "mapModeSwitches"    : [
+            "ItmAirPump02HotTempDmg", "ItmAirPump01DmgHotTemp",
+            "ItmAirPump02HotTempDmgLoose", "ItmAirPump01DmgHotTempLoose",
+            "ItmAirPump02HotTempOff", "ItmAirPump01HotTempOff",
+            "ItmAirPump02OnGHotTemp", "ItmAirPump01OnGHotTemp",
+            "ItmAirPump02HotTempOffLoose", "ItmAirPump01HotTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01DmgHotTempLoose",
+        "strNameFriendly" : "Turbo Air Pump (Damaged, Hot Temp, Loose)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01DmgTLoose",
+        "strImgNorm" : "ItmAirPump01DmgTLoosen",
+        "strPortraitImg" : "ItmAirPump01DmgTLoose",
+        "strCOBase"    : "ItmAirPump02HotTempDmgLoose",
+        "strCondLoot"    : "CNDOLAirPump04Dmg",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02HotTempDmg", "ItmAirPump01DmgHotTemp",
+            "ItmAirPump02HotTempDmgLoose", "ItmAirPump01DmgHotTempLoose",
+            "ItmAirPump02HotTempOff", "ItmAirPump01HotTempOff",
+            "ItmAirPump02OnGHotTemp", "ItmAirPump01OnGHotTemp",
+            "ItmAirPump02HotTempOffLoose", "ItmAirPump01HotTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01HotTempOffLoose",
+        "strNameFriendly" : "Turbo Air Pump (Hot Temp, Loose)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01OffTLoose",
+        "strImgNorm" : "ItmAirPump01OffTLoosen",
+        "strImgDamaged" : "ItmAirPump01DmgTLoose",
+        "strPortraitImg" : "ItmAirPump01OffTLoose",
+        "strCOBase"    : "ItmAirPump02HotTempOffLoose",
+        "strCondLoot"    : "CNDOLAirPump04",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02HotTempDmg", "ItmAirPump01DmgHotTemp",
+            "ItmAirPump02HotTempDmgLoose", "ItmAirPump01DmgHotTempLoose",
+            "ItmAirPump02HotTempOff", "ItmAirPump01HotTempOff",
+            "ItmAirPump02OnGHotTemp", "ItmAirPump01OnGHotTemp",
+            "ItmAirPump02HotTempOffLoose", "ItmAirPump01HotTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01HotTempOff",
+        "strNameFriendly" : "Turbo Air Pump (Hot Temp, Off)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01OffT",
+        "strImgNorm" : "ItmAirPump01OffTn",
+        "strImgDamaged" : "ItmAirPump01DmgT",
+        "strPortraitImg" : "ItmAirPump01OffT",
+        "strCOBase"    : "ItmAirPump02HotTempOff",
+        "strCondLoot"    : "CNDOLAirPump04",
+        "mapModeSwitches"    : [
+            "ItmAirPump02HotTempDmg", "ItmAirPump01DmgHotTemp",
+            "ItmAirPump02HotTempDmgLoose", "ItmAirPump01DmgHotTempLoose",
+            "ItmAirPump02HotTempOff", "ItmAirPump01HotTempOff",
+            "ItmAirPump02OnGHotTemp", "ItmAirPump01OnGHotTemp",
+            "ItmAirPump02HotTempOffLoose", "ItmAirPump01HotTempOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01OnGHotTemp",
+        "strNameFriendly" : "Turbo Air Pump (OnG, Hot Temp)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01OffT",
+        "strImgNorm" : "ItmAirPump01OffTn",
+        "strImgDamaged" : "ItmAirPump01DmgT",
+        "strPortraitImg" : "ItmAirPump01OffT",
+        "strCOBase"    : "ItmAirPump02OnGHotTemp",
+        "strCondLoot"    : "CNDOLAirPump04",
+        "mapModeSwitches"    : [
+            "ItmAirPump02HotTempDmg", "ItmAirPump01DmgHotTemp",
+            "ItmAirPump02HotTempDmgLoose", "ItmAirPump01DmgHotTempLoose",
+            "ItmAirPump02HotTempOff", "ItmAirPump01HotTempOff",
+            "ItmAirPump02OnGHotTemp", "ItmAirPump01OnGHotTemp",
+            "ItmAirPump02HotTempOffLoose", "ItmAirPump01HotTempOffLoose"
+        ]
+    }
+]  

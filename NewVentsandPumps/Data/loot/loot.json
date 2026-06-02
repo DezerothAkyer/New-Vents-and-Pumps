@@ -1,4 +1,10 @@
 [
+
+  { "strName" : "CNDOLAirPump04", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsRyokka=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump04Dmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsRyokka=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump05", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsGott=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+
   { "strName" : "CONDDcGasPpCH4", "aCOs" : [ "DcGasPpCH4=1.0x1" ], "aLoots" : [], "strType" : "condition" },
   { "strName" : "CONDDcGasPpCO", "aCOs" : [ "DcGasPpCO=1.0x1" ], "aLoots" : [], "strType" : "condition" },
   { "strName" : "CONDDcGasPpCOWarning", "aCOs" : [ "DcGasPpCOWarning=1.0x1" ], "aLoots" : [], "strType" : "condition" },

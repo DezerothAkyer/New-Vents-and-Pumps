@@ -8,8 +8,32 @@
   { "strName" : "TIsAirPump02InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAirPump03Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsKang" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAirPump03UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsKang", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
-  { "strName" : "TIsAirPump02Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
-  { "strName" : "TIsAirPump02InstalledOn", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
+
+  { "strName" : "TIsAirPump02ColdTempUninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02ColdTempUninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02ColdTempInstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+
+  { "strName" : "TIsAirPump02HotTempUninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02HotTempUninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02HotTempInstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+
+
+  { "strName" : "TIsAirPump05Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsGott" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump05UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsGott", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump04Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsRyokka" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump04UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsRyokka", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+
+  { "strName" : "TIsAirPump02ColdTempInstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02ColdTempInstalledOn", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02ColdTempInstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+
+
+  { "strName" : "TIsAirPump02HotTempInstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02HotTempInstalledOn", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAirPump02HotTempInstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsInstalled", "IsDamaged" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+
+
+
   { "strName" : "TIsAirtight", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirtight" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
  { "strName" : "TIsAirtightNoHuman", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirtight" ], "aForbids" : [ "IsHuman" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAirtightShipCan", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirtight" ], "aForbids" : [ "IsHuman", "IsRoom", "IsSystem" ], "aTriggers" : [ ], "bAND" : true },

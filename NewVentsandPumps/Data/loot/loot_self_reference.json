@@ -1,5 +1,42 @@
 [
-  
+
+  { "strName" : "ItmAirPump02ColdTempOff", "aCOs"    : [ "ItmAirPump02ColdTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02OnGColdTemp", "aCOs"    : [ "ItmAirPump02OnGColdTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02ColdTempOffLoose", "aCOs"    : [ "ItmAirPump02ColdTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02ColdTempDmg", "aCOs"    : [ "ItmAirPump02ColdTempDmg=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02ColdTempDmgLoose", "aCOs"    : [ "ItmAirPump02ColdTempDmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
+  { "strName" : "ItmAirPump02HotTempOff", "aCOs"    : [ "ItmAirPump02HotTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02OnGHotTemp", "aCOs"    : [ "ItmAirPump02OnGHotTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02HotTempOffLoose", "aCOs"    : [ "ItmAirPump02HotTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02HotTempDmg", "aCOs"    : [ "ItmAirPump02HotTempDmg=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump02HotTempDmgLoose", "aCOs"    : [ "ItmAirPump02HotTempDmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
+
+  { "strName" : "ItmAirPump01HotTempOff", "aCOs"    : [ "ItmAirPump01HotTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01OnGHotTemp", "aCOs"    : [ "ItmAirPump01OnGHotTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01HotTempOffLoose", "aCOs"    : [ "ItmAirPump01HotTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01DmgHotTemp", "aCOs"    : [ "ItmAirPump01DmgHotTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01DmgHotTempLoose", "aCOs"    : [ "ItmAirPump01DmgHotTempLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
+  { "strName" : "ItmAirPump01ColdTempOff", "aCOs"    : [ "ItmAirPump01ColdTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01OnGColdTemp", "aCOs"    : [ "ItmAirPump01OnGColdTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01ColdTempOffLoose", "aCOs"    : [ "ItmAirPump01ColdTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01DmgColdTemp", "aCOs"    : [ "ItmAirPump01DmgColdTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump01DmgColdTempLoose", "aCOs"    : [ "ItmAirPump01DmgColdTempLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
+  { "strName" : "ItmAirPump03ColdTempOff", "aCOs"    : [ "ItmAirPump03ColdTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03OnGColdTemp", "aCOs"    : [ "ItmAirPump03OnGColdTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03ColdTempOffLoose", "aCOs"    : [ "ItmAirPump03ColdTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03DmgColdTemp", "aCOs"    : [ "ItmAirPump03DmgColdTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03DmgColdTempLoose", "aCOs"    : [ "ItmAirPump03DmgColdTempLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
+  { "strName" : "ItmAirPump03HotTempOff", "aCOs"    : [ "ItmAirPump03HotTempOff=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03OnGHotTemp", "aCOs"    : [ "ItmAirPump03OnGHotTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03HotTempOffLoose", "aCOs"    : [ "ItmAirPump03HotTempOffLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03DmgHotTemp", "aCOs"    : [ "ItmAirPump03DmgHotTemp=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+  { "strName" : "ItmAirPump03DmgHotTempLoose", "aCOs"    : [ "ItmAirPump03DmgHotTempLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+
   { "strName" : "ItmVent01Loose", "aCOs" : [ "ItmVent01Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
   {
     "strName" : "ItmVent01Closed",

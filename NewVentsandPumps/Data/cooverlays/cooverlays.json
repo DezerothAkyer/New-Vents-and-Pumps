@@ -1,0 +1,282 @@
+[
+    {
+        "strName" : "ItmAirPump01Dmg",
+        "strNameFriendly" : "Turbo Air Pump (Damaged)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01Dmg02",
+        "strImgNorm" : "ItmAirPump01Dmg02n",
+        "strPortraitImg" : "ItmAirPump01Dmg02",
+        "strCOBase"    : "ItmAirPump02Dmg",
+        "strCondLoot"    : "CNDOLAirPump01Dmg",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump01Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump01Off",
+            "ItmAirPump02OnG", "ItmAirPump01OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump01OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01DmgLoose",
+        "strNameFriendly" : "Turbo Air Pump (Damaged, Loose)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01Dmg02Loose",
+        "strImgNorm" : "ItmAirPump01Dmg02Loosen",
+        "strPortraitImg" : "ItmAirPump01Dmg02Loose",
+        "strCOBase"    : "ItmAirPump02DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump01Dmg",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump01Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump01Off",
+            "ItmAirPump02OnG", "ItmAirPump01OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump01OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01Off",
+        "strNameFriendly" : "Turbo Air Pump (Off)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01Off",
+        "strImgNorm" : "ItmAirPump01Offn",
+        "strImgDamaged" : "ItmAirPump01Dmg01",
+        "strPortraitImg" : "ItmAirPump01Off",
+        "strCOBase"    : "ItmAirPump02Off",
+        "strCondLoot"    : "CNDOLAirPump01",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump01Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump01Off",
+            "ItmAirPump02OnG", "ItmAirPump01OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump01OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01OffLoose",
+        "strNameFriendly" : "Turbo Air Pump (Loose)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01OffLoose",
+        "strImgNorm" : "ItmAirPump01OffLoosen",
+        "strImgDamaged" : "ItmAirPump01Dmg01Loose",
+        "strPortraitImg" : "ItmAirPump01OffLoose",
+        "strCOBase"    : "ItmAirPump02OffLoose",
+        "strCondLoot"    : "CNDOLAirPump01",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump01Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump01Off",
+            "ItmAirPump02OnG", "ItmAirPump01OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump01OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump01OnG",
+        "strNameFriendly" : "Turbo Air Pump (OnG)",
+        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strImg" : "ItmAirPump01Off",
+        "strImgNorm" : "ItmAirPump01Offn",
+        "strImgDamaged" : "ItmAirPump01Dmg01",
+        "strPortraitImg" : "ItmAirPump01Off",
+        "strCOBase"    : "ItmAirPump02OnG",
+        "strCondLoot"    : "CNDOLAirPump01",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump01Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump01Off",
+            "ItmAirPump02OnG", "ItmAirPump01OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump01OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03Dmg",
+        "strNameFriendly" : "Air Pump (Damaged)",
+        "strImg" : "ItmAirPump02Dmg02",
+        "strImgNorm" : "ItmAirPump02Dmg02n",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmAirPump02Dmg02",
+        "strCOBase"    : "ItmAirPump02Dmg",
+        "strCondLoot"    : "CNDOLAirPump03",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump03Off",
+            "ItmAirPump02OnG", "ItmAirPump03OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump03OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03DmgLoose",
+        "strNameFriendly" : "Air Pump (Damaged, Loose)",
+        "strImg" : "ItmAirPump02Dmg02Loose",
+        "strImgNorm" : "ItmAirPump02Dmg02Loosen",
+        "strImgDamaged" : "ItmAirPump02Dmg01Loose",
+        "strPortraitImg" : "ItmAirPump02Dmg02Loose",
+        "strCOBase"    : "ItmAirPump02DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump03",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump03Off",
+            "ItmAirPump02OnG", "ItmAirPump03OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump03OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03Off",
+        "strNameFriendly" : "Air Pump (Off)",
+        "strImg" : "ItmAirPump02Off",
+        "strImgNorm" : "ItmAirPump02Offn",
+        "strImgDamaged" : "ItmAirPump02Dmg01",
+        "strPortraitImg" : "ItmAirPump02Off",
+        "strCOBase"    : "ItmAirPump02Off",
+        "strCondLoot"    : "CNDOLAirPump03",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump03Off",
+            "ItmAirPump02OnG", "ItmAirPump03OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump03OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03OffLoose",
+        "strNameFriendly" : "Air Pump (Loose)",
+        "strImg" : "ItmAirPump02OffLoose",
+        "strImgNorm" : "ItmAirPump02OffLoosen",
+        "strImgDamaged" : "ItmAirPump02Dmg01Loose",
+        "strPortraitImg" : "ItmAirPump02OffLoose",
+        "strCOBase"    : "ItmAirPump02OffLoose",
+        "strCondLoot"    : "CNDOLAirPump03",
+        "mapSlotEffects" : [
+            "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump03Off",
+            "ItmAirPump02OnG", "ItmAirPump03OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump03OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump03OnG",
+        "strNameFriendly" : "Air Pump (OnG)",
+        "strImg" : "ItmAirPump02Off",
+        "strImgNorm" : "ItmAirPump02Offn",
+        "strImgDamaged" : "ItmAirPump02Dmg01",
+        "strPortraitImg" : "ItmAirPump02Off",
+        "strCOBase"    : "ItmAirPump02OnG",
+        "strCondLoot"    : "CNDOLAirPump03ColdTemp",
+        "mapModeSwitches"    : [
+            "ItmAirPump02Dmg", "ItmAirPump03Dmg",
+            "ItmAirPump02DmgLoose", "ItmAirPump03DmgLoose",
+            "ItmAirPump02Off", "ItmAirPump03Off",
+            "ItmAirPump02OnG", "ItmAirPump03OnG",
+            "ItmAirPump02OffLoose", "ItmAirPump03OffLoose"
+        ]
+    },
+
+    {
+        "strName" : "ItmHeater02Dmg",
+        "strNameFriendly" : "Heater Model B (Damaged)",
+        "strImg"  : "ItmHeater02Dmg",
+        "strImgNorm"  : "ItmHeater02n",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmHeater02Dmg",
+        "strCOBase"    : "ItmHeater01Dmg",
+        "mapModeSwitches"    : [
+            "ItmHeater01Dmg", "ItmHeater02Dmg",
+            "ItmHeater01DmgLoose", "ItmHeater02DmgLoose",
+            "ItmHeater01Off", "ItmHeater02Off",
+            "ItmHeater01", "ItmHeater02",
+            "ItmHeater01OffLoose", "ItmHeater02OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmHeater02DmgLoose",
+        "strNameFriendly" : "Heater Model B (Loose, Damaged)",
+        "strImg"  : "ItmHeater01Dmg02Loose",
+        "strImgNorm"  : "ItmHeater01Loosen",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmHeater02DmgLoose",
+        "strCOBase"    : "ItmHeater01DmgLoose",
+        "mapSlotEffects" : [
+            "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmHeater01Dmg", "ItmHeater02Dmg",
+            "ItmHeater01DmgLoose", "ItmHeater02DmgLoose",
+            "ItmHeater01Off", "ItmHeater02Off",
+            "ItmHeater01", "ItmHeater02",
+            "ItmHeater01OffLoose", "ItmHeater02OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmHeater02Off",
+        "strNameFriendly" : "Heater Model B (Off)",
+        "strImg" : "ItmHeater02",
+        "strImgNorm" : "ItmHeater02n",
+        "strImgDamaged" : "ItmHeater02Dmg",
+        "strPortraitImg" : "ItmHeater02",
+        "strCOBase"    : "ItmHeater01Off",
+        "mapModeSwitches"    : [
+            "ItmHeater01Dmg", "ItmHeater02Dmg",
+            "ItmHeater01DmgLoose", "ItmHeater02DmgLoose",
+            "ItmHeater01Off", "ItmHeater02Off",
+            "ItmHeater01", "ItmHeater02",
+            "ItmHeater01OffLoose", "ItmHeater02OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmHeater02OffLoose",
+        "strNameFriendly" : "Heater Model B (Loose)",
+        "strImg"  : "ItmHeater02Loose",
+        "strImgNorm"  : "ItmHeater01Loosen",
+        "strImgDamaged" : "ItmHeater02DmgLoose",
+        "strPortraitImg" : "ItmHeater02Loose",
+        "strCOBase"    : "ItmHeater01OffLoose",
+        "mapSlotEffects" : [
+            "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmHeater01Dmg", "ItmHeater02Dmg",
+            "ItmHeater01DmgLoose", "ItmHeater02DmgLoose",
+            "ItmHeater01Off", "ItmHeater02Off",
+            "ItmHeater01", "ItmHeater02",
+            "ItmHeater01OffLoose", "ItmHeater02OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmHeater02",
+        "strNameFriendly" : "Heater Model B",
+        "strImg"  : "ItmHeater02Sheet",
+        "strImgNorm"  : "ItmHeater02Sheetn",
+        "strImgDamaged" : "ItmHeater02SheetDmg",
+        "strPortraitImg" : "ItmHeater02",
+        "strCOBase"    : "ItmHeater01",
+        "mapModeSwitches"    : [
+            "ItmHeater01Dmg", "ItmHeater02Dmg",
+            "ItmHeater01DmgLoose", "ItmHeater02DmgLoose",
+            "ItmHeater01Off", "ItmHeater02Off",
+            "ItmHeater01", "ItmHeater02",
+            "ItmHeater01OffLoose", "ItmHeater02OffLoose"
+        ],
+        "objAnimation" : {
+            "nFrameCount" : 8,
+            "strFrameRate" : "8-32",
+            "bRandomStartingFrame" : true,
+            "nSheetColumns" : 4,
+            "nSheetRows" : 4,
+            "bLoop" : true
+        }
+    }
+]  
