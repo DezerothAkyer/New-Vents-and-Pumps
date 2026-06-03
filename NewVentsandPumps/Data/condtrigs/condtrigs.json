@@ -1,5 +1,6 @@
 [
   { "strName" : "TIsAirPump", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRyokkaorGott", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRyokka", "IsGott" ], "aForbids" : [ "IsDamaged" ], "aTriggers" : [ ], "bAND" : false },
   { "strName" : "TIsAirPumpAudioProducer", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump" ], "aForbids" : [ "IsEVASuit" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAirPump01Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsSokol" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAirPump01UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirPump", "IsSokol", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
@@ -90,10 +91,13 @@
   { "strName" : "TIsAlarmTempUninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempInstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempInstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
   { "strName" : "TIsAlarmTempNotB", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp" ], "aForbids" : [ "IsBlue" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAlarmTempB", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsBlue" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempNotOff", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp" ], "aForbids" : [ "IsOff" ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempOff", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsOff" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempNotR", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp" ], "aForbids" : [ "IsRed" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsAlarmTempR", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp", "IsRed" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
   { "strName" : "TIsAlarmTempNotW", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAlarmTemp" ], "aForbids" : [ "IsWhite" ], "aTriggers" : [ ], "bAND" : true },
 
   { "strName" : "TIsAtmoScrubber", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAtmoScrubber" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },

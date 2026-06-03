@@ -8,6 +8,11 @@
         "strPortraitImg" : "ItmAirPump02DmgT",
         "strCOBase"    : "ItmAirPump02Dmg",
         "strCondLoot"    : "CNDOLAirPump05",
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
             "ItmAirPump02Dmg", "ItmAirPump03DmgHotTemp",
             "ItmAirPump02DmgLoose", "ItmAirPump03DmgHotTempLoose",
@@ -28,6 +33,10 @@
         "mapSlotEffects" : [
         "drag", "Blank"
         ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot"
+        ],
         "mapModeSwitches"    : [
             "ItmAirPump02Dmg", "ItmAirPump03DmgHotTemp",
             "ItmAirPump02DmgLoose", "ItmAirPump03DmgHotTempLoose",
@@ -45,6 +54,16 @@
         "strPortraitImg" : "ItmAirPump02OffT",
         "strCOBase"    : "ItmAirPump02Off",
         "strCondLoot"    : "CNDOLAirPump05",
+        "aInteractionsReplace" : [
+      "Settocold", "SettocoldB",
+      "GUIAirPump", "GUIAirPump"
+
+    ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
             "ItmAirPump02Dmg", "ItmAirPump03DmgHotTemp",
             "ItmAirPump02DmgLoose", "ItmAirPump03DmgHotTempLoose",
@@ -60,11 +79,15 @@
         "strImgNorm" : "ItmAirPump02OffTLoosen",
         "strImgDamaged" : "ItmAirPump02DmgTLoose",
         "strPortraitImg" : "ItmAirPump02OffTLoose",
-        "strCOBase"    : "ItmAirPump02OffLoose",
+        "strCOBase"    : "ItmAirPump02HotTempOffLoose",
         "strCondLoot"    : "CNDOLAirPump05",
         "mapSlotEffects" : [
             "drag", "Blank"
-        ],
+        ],      
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot"
+        ],  
         "mapModeSwitches"    : [
             "ItmAirPump02Dmg", "ItmAirPump03DmgHotTemp",
             "ItmAirPump02DmgLoose", "ItmAirPump03DmgHotTempLoose",
@@ -82,6 +105,16 @@
         "strPortraitImg" : "ItmAirPump02OffT",
         "strCOBase"    : "ItmAirPump02OnG",
         "strCondLoot"    : "CNDOLAirPump05",
+        "aInteractionsReplace" : [
+      "Settocold", "SettocoldB",
+      "GUIAirPump", "GUIAirPump"
+
+    ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
             "ItmAirPump02Dmg", "ItmAirPump03DmgHotTemp",
             "ItmAirPump02DmgLoose", "ItmAirPump03DmgHotTempLoose",

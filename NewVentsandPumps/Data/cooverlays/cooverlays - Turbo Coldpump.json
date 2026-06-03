@@ -1,96 +1,129 @@
 [
     {
         "strName" : "ItmAirPump01DmgColdTemp",
-        "strNameFriendly" : "Turbo Air Pump (Damaged, Cold Temp)",
-        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strNameFriendly" : "Thermaster Air Pump (Damaged, Cold Temp)",
+        "strDesc" : "The Ryokka Thermaster Pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
         "strImg" : "ItmAirPump01DmgT",
         "strImgNorm" : "ItmAirPump01DmgTn",
         "strPortraitImg" : "ItmAirPump01DmgT",
-        "strCOBase"    : "ItmAirPump02ColdTempDmg",
+        "strCOBase"    : "ItmAirPump02Dmg",
         "strCondLoot"    : "CNDOLAirPump04Dmg",
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureCold",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
-            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
         "strName" : "ItmAirPump01DmgColdTempLoose",
-        "strNameFriendly" : "Turbo Air Pump (Damaged, Cold Temp, Loose)",
-        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strNameFriendly" : "Thermaster Air Pump (Damaged, Cold Temp, Loose)",
+        "strDesc" : "The Ryokka Thermaster Pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
         "strImg" : "ItmAirPump01DmgTLoose",
         "strImgNorm" : "ItmAirPump01DmgTLoosen",
         "strPortraitImg" : "ItmAirPump01DmgTLoose",
-        "strCOBase"    : "ItmAirPump02ColdTempDmgLoose",
+        "strCOBase"    : "ItmAirPump02Loose",
         "strCondLoot"    : "CNDOLAirPump04Dmg",
         "mapSlotEffects" : [
         "drag", "Blank"
         ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureCold"
+        ],
         "mapModeSwitches"    : [
-            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
         "strName" : "ItmAirPump01ColdTempOffLoose",
-        "strNameFriendly" : "Turbo Air Pump (Cold Temp, Loose)",
-        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strNameFriendly" : "Thermaster Air Pump (Cold Temp, Loose)",
+        "strDesc" : "The Ryokka Thermaster Pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
         "strImg" : "ItmAirPump01OffTLoose",
         "strImgNorm" : "ItmAirPump01OffTLoosen",
         "strImgDamaged" : "ItmAirPump01DmgTLoose",
         "strPortraitImg" : "ItmAirPump01OffTLoose",
-        "strCOBase"    : "ItmAirPump02ColdTempOffLoose",
+        "strCOBase"    : "ItmAirPump02Loose",
         "strCondLoot"    : "CNDOLAirPump04",
         "mapSlotEffects" : [
         "drag", "Blank"
         ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureCold"
+        ],
         "mapModeSwitches"    : [
-            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
         "strName" : "ItmAirPump01ColdTempOff",
-        "strNameFriendly" : "Turbo Air Pump (Cold Temp, Off)",
-        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strNameFriendly" : "Thermaster Air Pump (Cold Temp, Off)",
+        "strDesc" : "The Ryokka Thermaster Pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
         "strImg" : "ItmAirPump01OffT",
         "strImgNorm" : "ItmAirPump01OffTn",
         "strImgDamaged" : "ItmAirPump01DmgT",
         "strPortraitImg" : "ItmAirPump01OffT",
-        "strCOBase"    : "ItmAirPump02ColdTempOff",
+        "strCOBase"    : "ItmAirPump02Off",
         "strCondLoot"    : "CNDOLAirPump04",
+        "aInteractionsReplace" : [
+      "Settocold", "Settohot",
+      "GUIAirPump", "GUIAirPump"
+
+    ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureCold",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
-            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
         "strName" : "ItmAirPump01OnGColdTemp",
-        "strNameFriendly" : "Turbo Air Pump (OnG, Cold Temp)",
-        "strDesc" : "The Sokol T Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+        "strNameFriendly" : "Thermaster Air Pump (OnG, Cold Temp)",
+        "strDesc" : "The Ryokka Thermaster Pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
         "strImg" : "ItmAirPump01OffT",
         "strImgNorm" : "ItmAirPump01OffTn",
         "strImgDamaged" : "ItmAirPump01DmgT",
         "strPortraitImg" : "ItmAirPump01OffT",
-        "strCOBase"    : "ItmAirPump02OnGColdTemp",
+        "strCOBase"    : "ItmAirPump02OnG",
         "strCondLoot"    : "CNDOLAirPump04",
+        "aInteractionsReplace" : [
+      "Settocold", "Settohot",
+      "GUIAirPump", "GUIAirPump"
+
+    ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureCold",
+            "Electrical"
+        ],
         "mapModeSwitches"    : [
-            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     }
 ]  

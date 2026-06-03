@@ -24,7 +24,7 @@
       "strGUIPrefabUp", null,
       "strGUIPrefabDown", null,
       "strTitle", "Unscrew for Pressure Sensor Input Signal",
-      "strValidCOTrigger01", "TIsAlarmTemp",
+      "strValidCOTrigger01", "TIsAlarmTempB",
       "strCondMonitor01", "IsReadyPumpAir",
       "strInput01", ""
     ]
@@ -39,7 +39,7 @@
       "strGUIPrefabUp", null,
       "strGUIPrefabDown", null,
       "strTitle", "Unscrew for Pressure Sensor Input Signal",
-      "strValidCOTrigger01", "TIsAlarmTemp",
+      "strValidCOTrigger01", "TIsAlarmTempR",
       "strCondMonitor01", "IsReadyPumpAir",
       "strInput01", ""
     ]

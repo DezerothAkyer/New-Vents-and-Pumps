@@ -3,8 +3,8 @@
   {
     "strName" : "ItmAirPump02ColdTempDmg",
     "strNameShort" : "Pump",
-    "strNameFriendly" : "Air Pump (Damaged)",
-    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strNameFriendly" : "Air Pump (Cold Temp, Damaged)",
+    "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
     "strItemDef" : "ItmAirPump02Dmg",
     "strType"    : "Item",
     "strLoot"    : null,
@@ -55,8 +55,8 @@
   {
     "strName" : "ItmAirPump02ColdTempDmgLoose",
     "strNameShort" : "Pump",
-    "strNameFriendly" : "Air Pump (Damaged, Loose)",
-    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strNameFriendly" : "Air Pump (Cold Temp, Damaged, Loose)",
+    "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
     "strItemDef" : "ItmAirPump02DmgLoose",
     "strType"    : "Item",
     "aInteractions" : [
@@ -101,7 +101,7 @@
     "strName" : "ItmAirPump02ColdTempOff",
     "strNameShort" : "Pump",
     "strNameFriendly" : "Air Pump (Cold Temp, Off)",
-    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
     "strItemDef" : "ItmAirPump02Off",
     "strType"    : "Item",
     "strLoot"    : null,
@@ -154,8 +154,8 @@
   {
     "strName" : "ItmAirPump02ColdTempOffLoose",
     "strNameShort" : "Pump",
-    "strNameFriendly" : "Air Pump (Loose)",
-    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strNameFriendly" : "Air Pump (Cold Temp, Loose)",
+    "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
     "strItemDef" : "ItmAirPump02OffLoose",
     "strType"    : "Item",
     "aInteractions" : [
@@ -197,7 +197,7 @@
     "strName" : "ItmAirPump02OnGColdTemp",
     "strNameShort" : "Pump",
     "strNameFriendly" : "Air Pump(Cold Temp)",
-    "strDesc" : "The Kang UT Series gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure.",
+    "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
     "strItemDef" : "ItmAirPump02Green",
     "strType"    : "Item",
     "strLoot"    : null,

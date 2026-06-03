@@ -18798,5 +18798,208 @@
           "RemoveUs,CT[us],false,true,false"
         ],
         "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "Settocold",
+        "strTitle" : "Set to Cold",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to pump when the thermostat reads cold. Due to limitations of the software, can only be configured WHILE the thermostat reads cold.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "SettocoldAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsRyokka",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "SettocoldAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] sets to cold.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsRyokka",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump01ColdTempOff"
+      },
+
+      {
+        "strName" : "SettocoldB",
+        "strTitle" : "Set to Cold",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to pump when the thermostat reads cold. Due to limitations of the software, can only be configured WHILE the thermostat reads cold.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "SettocoldAllowB"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsGott",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "SettocoldAllowB",
+        "strTitle" : "",
+        "strDesc" : "[us] sets to cold.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsGott",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump03ColdTempOff"
+      },
+
+      {
+        "strName" : "Settohot",
+        "strTitle" : "Set to Hot",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to pump when the thermostat reads hot. Due to limitations of the software, can only be configured WHILE the thermostat reads hot.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "SettohotAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsRyokka",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "SettohotAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] sets to hot.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsRyokka",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump01HotTempOff"
+      },
+
+      {
+        "strName" : "SettohotB",
+        "strTitle" : "Set to Hot",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to pump when the thermostat reads hot. Due to limitations of the software, can only be configured WHILE the thermostat reads hot.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "SettohotAllowB"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsGott",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "SettohotAllowB",
+        "strTitle" : "",
+        "strDesc" : "[us] sets to hot.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsGott",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump03HotTempOff"
       }
 ]
