@@ -1,0 +1,34 @@
+[
+//Base Filter
+
+    { "strName" : "Filter01OffDismantle", "strActionCO" : "ItmFilter01Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+    { "strName" : "Filter01LooseDismantle", "strActionCO" : "ItmFilter01Loose", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Oxygen Filter
+
+    { "strName" : "Filter02OffDismantle", "strActionCO" : "ItmFilter02Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Nitrogen Filter
+
+    { "strName" : "Filter03OffDismantle", "strActionCO" : "ItmFilter03Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Carbon Monoxide Filter
+
+    { "strName" : "Filter04OffDismantle", "strActionCO" : "ItmFilter04Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Carbon Dioxide Filter
+
+    { "strName" : "Filter05OffDismantle", "strActionCO" : "ItmFilter05Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Smoke Filter
+
+    { "strName" : "Filter06OffDismantle", "strActionCO" : "ItmFilter06Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Sulfuric Acid Filter
+
+    { "strName" : "Filter07OffDismantle", "strActionCO" : "ItmFilter07Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" },
+
+//Ammonia Filter
+
+    { "strName" : "Filter08OffDismantle", "strActionCO" : "ItmFilter08Off", "strActionGroup" : "Work", "strTooltip" : "Carefully deconstructs item into component parts (Non-reversible).", "strInteractionTemplate" : "ACTDismantleTEMP", "CTThem" :  "TCanBeDismantled" , "aInputs" : [  ], "fTargetPointRange" : 2.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "strLootOut" : "ItmFilterDismantle", "strJobType" : "dismantle", "strAllowLootCTsUs" : "CTWorkProgressCTRL", "strAllowLootCTsThem" : "CONDDismantleProgress", "strProgressStat" : "StatDismantleProgress", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateCTRL" }
+]

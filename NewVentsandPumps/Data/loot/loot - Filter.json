@@ -1,0 +1,56 @@
+[
+//Base Filter
+
+  {
+    "strName" : "ItmFilterComponents",
+    "aCOs"    : [
+      "ItmComponentMotor01=0.5x1",
+      "ItmHeatSink01=0.5x1",
+      "ItmPartsMechSmall01=1.0x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+
+  { "strName" : "ACTFilter01Damage", "aCOs" : [ "MSFilter01Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter01Destroy", "aCOs" : [ "MSFilter01Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter01LooseDamage", "aCOs" : [ "MSFilter01LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter01LooseDestroy", "aCOs" : [ "MSFilter01LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Oxygen Filter
+
+  { "strName" : "ACTFilter02Damage", "aCOs" : [ "MSFilter02Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter02Destroy", "aCOs" : [ "MSFilter02Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Nitrogen Filter
+
+  { "strName" : "ACTFilter03Damage", "aCOs" : [ "MSFilter03Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter03Destroy", "aCOs" : [ "MSFilter03Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Carbon Monoxide Filter
+
+  { "strName" : "ACTFilter04Damage", "aCOs" : [ "MSFilter04Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter04Destroy", "aCOs" : [ "MSFilter04Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Carbon Dioxide Filter
+
+  { "strName" : "ACTFilter05Damage", "aCOs" : [ "MSFilter05Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter05Destroy", "aCOs" : [ "MSFilter05Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Smoke Filter
+
+  { "strName" : "ACTFilter06Damage", "aCOs" : [ "MSFilter06Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter06Destroy", "aCOs" : [ "MSFilter06Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Sulfuric Acid Filter
+
+  { "strName" : "ACTFilter07Damage", "aCOs" : [ "MSFilter07Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter07Destroy", "aCOs" : [ "MSFilter07Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+//Ammonia Filter
+
+  { "strName" : "ACTFilter08Damage", "aCOs" : [ "MSFilter08Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTFilter08Destroy", "aCOs" : [ "MSFilter08Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" }
+
+]

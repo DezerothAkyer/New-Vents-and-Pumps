@@ -1,0 +1,20 @@
+[
+  { "strName" : "CONDTraderDiscountBuyKioskVentandpumpShop", "aCOs" : [ "DiscountBuy=1.0x.2-.4" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CONDTraderDiscountSellKioskVentandpumpShop", "aCOs" : [ "DiscountSell=1.0x4-4.6" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "TraderCTsBuyKioskVentandpumpShop", "aCOs" : [ "TIsBarterKioskVentandpumpShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  { "strName" : "TraderCTsSellKioskVentandpumpShop", "aCOs" : [ "TIsBarterKioskVentandpumpShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+
+  {
+    "strName" : "ItmKioskVentandpumpShopInv",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmAirPump01DmgColdTemp=1.0x1-2",
+      "ItmAirPump03DmgColdTemp=1.0x2-4",
+      "ItmAirPump01HotTempOff=1.0x2-4",
+      "ItmAirPump03HotTempOff=1.0x2-4"
+    ],
+    "strType" : "item"
+  }
+]

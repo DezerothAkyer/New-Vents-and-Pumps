@@ -1,0 +1,211 @@
+[
+//Oxygen Filter
+
+  {
+    "strName" : "HeldItmPartsOxygenFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterO2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsOxygenFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterO2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Nitrogen Filter
+
+  {
+    "strName" : "HeldItmPartsNitrogenFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterN2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsNitrogenFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterN2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Carbon Monoxide Filter
+
+  {
+    "strName" : "HeldItmPartsCarbonMonoxideFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterCOL",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsCarbonMonoxideFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterCOL",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Carbon Dioxide Filter
+
+  {
+    "strName" : "HeldItmPartsCarbonDioxideFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterCO2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsCarbonDioxideFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterCO2L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Smoke Filter
+
+  {
+    "strName" : "HeldItmPartsSmokeFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterSL",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsSmokeFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterSL",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Sulfuric Acid Filter
+
+  {
+    "strName" : "HeldItmPartsSulfuricAcidFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterH2SO4L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsSulfuricAcidFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterH2SO4L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+
+//Ammonia Filter
+
+  {
+    "strName" : "HeldItmPartsAmmoniaFilterL",
+    "strSlotImage" : "paperdoll/held/bodyFilterNH3L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmPartsAmmoniaFilterR",
+    "strSlotImage" : "paperdoll/held/bodyFilterNH3L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "aTextAnchors": [0.75, 0.45, 0.82, 0.49],
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  }
+]

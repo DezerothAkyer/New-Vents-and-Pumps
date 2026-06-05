@@ -263,6 +263,188 @@
     "bAllowExternB": true
   },
   {
+    "strName": "AirPump03",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsRoom",
+    "strCTB": "TIsRoom",
+    "fVol": 0.00193,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  },
+  {
+    "strName": "Filter01",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter01Data",
+        "strGasIn": "O2",
+        "strGasOut": "O2",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter02",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter02Data",
+        "strGasIn": "N2",
+        "strGasOut": "N2",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter03",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter03Data",
+        "strGasIn": "NH3",
+        "strGasOut": "NH3",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter04",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter04Data",
+        "strGasIn": "CO",
+        "strGasOut": "CO",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter05",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter05Data",
+        "strGasIn": "CO2",
+        "strGasOut": "CO2",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter06",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter06Data",
+        "strGasIn": "Smoke",
+        "strGasOut": "Smoke",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
+    "strName": "Filter07",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.2,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TAlways",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true,
+    "aGases" : [
+      {
+        "strName": "Filter07Data",
+        "strGasIn": "H2SO4",
+        "strGasOut": "H2SO4",
+        "fConvRate": 1.0,
+        "fGasPressTotalRef": 101.3,
+        "fStatRate": 1.0
+      }
+    ]
+  },
+  {
     "strName": "Cigarette01",
     "strPtA": "",
     "strPtB": "",

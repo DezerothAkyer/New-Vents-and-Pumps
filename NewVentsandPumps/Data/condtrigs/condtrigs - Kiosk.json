@@ -1,0 +1,6 @@
+[
+ 
+  { "strName" : "TIsBarterKioskVentandpumpShop", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAirVent","IsAirPump" ], "aForbids" : [ "IsDataItem" ], "aTriggersForbid" : [ "TIsBarter" ], "bAND" : false },
+  { "strName" : "TIsVentandpumpMerchant", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "CareerIntakeMerchant" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsTraderVentandpumpMerchant", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "CareerIntakeMerchant"  ], "aForbids" : [ ], "aTriggers" : [ "TIsTraderAwake" ], "bAND" : true }
+]

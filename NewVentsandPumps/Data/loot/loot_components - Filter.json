@@ -1,0 +1,113 @@
+[
+//Base Filter
+
+  {
+    "strName" : "ItmFilter01Damage",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter01LooseDamage",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Oxygen Filter
+
+  {
+    "strName" : "ItmFilter02Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Nitrogren Filter
+
+  {
+    "strName" : "ItmFilter03Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Carbon Monoxide Filter
+
+  {
+    "strName" : "ItmFilter04Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Carbon Dioxide Filter
+
+  {
+    "strName" : "ItmFilter05Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Smoke Filter
+
+  {
+    "strName" : "ItmFilter06Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Sulfuric Acid Filter
+
+  {
+    "strName" : "ItmFilter07Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+//Ammonia Filter
+
+  {
+    "strName" : "ItmFilter08Damage",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmFilterComponents=1.0x1"
+    ],
+    "strType" : "item"
+  }
+]

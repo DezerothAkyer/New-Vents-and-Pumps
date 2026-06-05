@@ -1,0 +1,197 @@
+
+[
+  {
+    "strName" : "ItmFilter01Open",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas filter, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump,null",
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter01Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter01",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter01Loose",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Loose)",
+    "strDesc" : "The A'Kyer Astronautics gas filter, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmFilter01Loose"
+  },
+  {
+    "strName" : "ItmFilter01Off",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas filter, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter01Closed",
+    "jsonPI"            : "Filter01"
+  },
+  {
+    "strName" : "ItmFilter01Closed",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas filter, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter01Closed",
+    "jsonPI"            : "Filter01"
+  }
+]

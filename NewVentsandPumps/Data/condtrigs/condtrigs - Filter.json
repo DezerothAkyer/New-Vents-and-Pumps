@@ -1,0 +1,48 @@
+[
+//Base Filter
+
+  { "strName" : "TIsFilter01Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter01Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Oxygen Filter
+
+  { "strName" : "TIsFilter02Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsOxygenFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter02Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsOxygenFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmO2FilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsO2Filter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Nitrogen Filter
+
+  { "strName" : "TIsFilter03Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNitrogenFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter03Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNitrogenFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmN2FilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsN2Filter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Carbon Monoxide Filter
+
+  { "strName" : "TIsFilter04Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCarbonMonoxideFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter04Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCarbonMonoxideFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmCOFilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCOFilter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Carbon Dioxide Filter
+
+  { "strName" : "TIsFilter05Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCarbonDioxideFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter05Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCarbonDioxideFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmCO2FilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsCO2Filter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Smoke Filter
+
+  { "strName" : "TIsFilter06Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSmokeFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter06Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSmokeFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmSFilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSFilter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Sulfuric Acid Filter
+
+  { "strName" : "TIsFilter07Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSulfuricAcidFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter07Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsSulfuricAcidFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmH2SO4FilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsH2SO4Filter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+
+//Ammonia Filter
+
+  { "strName" : "TIsFilter08Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAmmoniaFilter", "IsAkyer" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsFilter08Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsAmmoniaFilter", "IsAkyer", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsItmNH3FilterC", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsNH3Filter", "IsParts"], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

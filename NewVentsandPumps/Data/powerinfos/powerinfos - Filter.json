@@ -1,0 +1,129 @@
+[
+//Base Filter
+
+  {
+    "strName" : "Filter01",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter01OpenAllow",
+    "strIntPowerOff": "MSFilter01OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Oxygen Filter
+
+  {
+    "strName" : "Filter02",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter02OpenAllow",
+    "strIntPowerOff": "MSFilter02OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Nitrogen FIlter
+
+  {
+    "strName" : "Filter03",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter03OpenAllow",
+    "strIntPowerOff": "MSFilter03OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Carbon Monoxide Filter
+
+  {
+    "strName" : "Filter04",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter04OpenAllow",
+    "strIntPowerOff": "MSFilter04OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Carbon Dioxide Filter
+
+  {
+    "strName" : "Filter05",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter05OpenAllow",
+    "strIntPowerOff": "MSFilter05OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Smoke Filter
+
+  {
+    "strName" : "Filter06",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter06OpenAllow",
+    "strIntPowerOff": "MSFilter06OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Sulfuric Acid Filter
+
+  {
+    "strName" : "Filter07",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter07OpenAllow",
+    "strIntPowerOff": "MSFilter07OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+//Ammonia Filter
+
+  {
+    "strName" : "Filter08",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSFilter08OpenAllow",
+    "strIntPowerOff": "MSFilter08OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]

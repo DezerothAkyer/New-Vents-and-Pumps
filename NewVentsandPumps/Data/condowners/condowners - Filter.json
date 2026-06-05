@@ -1,0 +1,1568 @@
+
+[
+//The base filter. This one's basically a one-sided Vent; I designed it specifically to only push and pull from normal rooms, so it won't help with canisters.
+  {
+    "strName" : "ItmFilter01Open",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump03,null",
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter01Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter01",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter01Loose",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Loose)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmFilter01Loose"
+  },
+  {
+    "strName" : "ItmFilter01Off",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter01Closed",
+    "jsonPI"            : "Filter01"
+  },
+  {
+    "strName" : "ItmFilter01Closed",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air.",
+    "strItemDef" : "ItmFilter01Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter01Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter01Closed",
+    "jsonPI"            : "Filter01"
+  },
+
+//Oxygen Filter
+
+  {
+    "strName" : "ItmFilter02Open",
+    "strNameShort" : "Oxygen Filter",
+    "strNameFriendly" : "Oxygen Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Oxygen.",
+    "strItemDef" : "ItmFilter02Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsOxygenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter01,null",
+      "Destructable,StatDamage,ACTFilter02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter02Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter02",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter02Off",
+    "strNameShort" : "Filter",
+    "strNameFriendly" : "Oxygen Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Oxygen.",
+    "strItemDef" : "ItmFilter02Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsOxygenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter02Closed",
+    "jsonPI"            : "Filter02"
+  },
+  {
+    "strName" : "ItmFilter02Closed",
+    "strNameShort" : "Oxygen Filter",
+    "strNameFriendly" : "Oxygen Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Oxygen.",
+    "strItemDef" : "ItmFilter02Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsOxygenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter02Closed",
+    "jsonPI"            : "Filter02"
+  },
+
+
+  {
+    "strName" : "ItmO2FilterC",
+    "strNameShort" : "O2Filter",
+    "strNameFriendly" : "Oxygen Filter Component",
+    "strDesc" : "The oxygen filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmO2FilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsO2Filter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmOxygenFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsOxygenFilterL",
+      "heldR","HeldItmPartsOxygenFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+//Nitrogen Filter
+
+  {
+    "strName" : "ItmFilter03Open",
+    "strNameShort" : "Nitrogen Filter",
+    "strNameFriendly" : "Nitrogen Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Nitrogen.",
+    "strItemDef" : "ItmFilter03Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNitrogenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter02,null",
+      "Destructable,StatDamage,ACTFilter02Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter03Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter03",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter03Off",
+    "strNameShort" : "Nitrogen Filter",
+    "strNameFriendly" : "Nitrogen Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Nitrogen.",
+    "strItemDef" : "ItmFilter03Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNitrogenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter03Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter03Closed",
+    "jsonPI"            : "Filter03"
+  },
+  {
+    "strName" : "ItmFilter03Closed",
+    "strNameShort" : "Nitrogen Filter",
+    "strNameFriendly" : "Nitrogen Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Nitrogen.",
+    "strItemDef" : "ItmFilter03Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNitrogenFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter03Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter03Closed",
+    "jsonPI"            : "Filter03"
+  },
+
+
+  {
+    "strName" : "ItmN2FilterC",
+    "strNameShort" : "N2Filter",
+    "strNameFriendly" : "Nitrogen Filter Component",
+    "strDesc" : "The Nitrogen filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmN2FilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsN2Filter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmNitrogenFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsNitrogenFilterL",
+      "heldR","HeldItmPartsNitrogenFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+  {
+    "strName" : "ItmFilter04Open",
+    "strNameShort" : "Carbon Monoxide Filter",
+    "strNameFriendly" : "Carbon Monoxide Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter04Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonMonoxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter04,null",
+      "Destructable,StatDamage,ACTFilter04Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter04Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter04",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter04Off",
+    "strNameShort" : "Carbon Monoxide Filter",
+    "strNameFriendly" : "Carbon Monoxide Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter04Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonMonoxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter04Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter04Closed",
+    "jsonPI"            : "Filter04"
+  },
+  {
+    "strName" : "ItmFilter04Closed",
+    "strNameShort" : "Carbon Monoxide Filter",
+    "strNameFriendly" : "Carbon Monoxide Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter04Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonMonoxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter04Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter04Closed",
+    "jsonPI"            : "Filter04"
+  },
+
+
+  {
+    "strName" : "ItmCOFilterC",
+    "strNameShort" : "COFilter",
+    "strNameFriendly" : "Carbon Monoxide Filter Component",
+    "strDesc" : "The Carbon Monoxide filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmCOFilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsCOFilter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmCarbonMonoxideFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsCarbonMonoxideFilterL",
+      "heldR","HeldItmPartsCarbonMonoxideFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+//Carbon Dioxide Filter
+
+  {
+    "strName" : "ItmFilter05Open",
+    "strNameShort" : "Carbon Dioxide Filter",
+    "strNameFriendly" : "Carbon Dioxide Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Dioxide.",
+    "strItemDef" : "ItmFilter05Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonDioxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter05,null",
+      "Destructable,StatDamage,ACTFilter05Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter05Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter05",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter05Off",
+    "strNameShort" : "Carbon Dioxide Filter",
+    "strNameFriendly" : "Carbon Dioxide Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Dioxide.",
+    "strItemDef" : "ItmFilter05Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonDioxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter05Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter05Closed",
+    "jsonPI"            : "Filter05"
+  },
+  {
+    "strName" : "ItmFilter05Closed",
+    "strNameShort" : "Carbon Dioxide Filter",
+    "strNameFriendly" : "Carbon Dioxide Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Dioxide.",
+    "strItemDef" : "ItmFilter05Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsCarbonDioxideFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter05Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter05Closed",
+    "jsonPI"            : "Filter05"
+  },
+
+
+  {
+    "strName" : "ItmCO2FilterC",
+    "strNameShort" : "CO2Filter",
+    "strNameFriendly" : "Carbon Dioxide Filter Component",
+    "strDesc" : "The CarbonDioxide filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmCO2FilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsCO2Filter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmCarbonDioxideFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsCarbonDioxideFilterL",
+      "heldR","HeldItmPartsCarbonDioxideFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+//Smoke filter
+
+  {
+    "strName" : "ItmFilter06Open",
+    "strNameShort" : "Smoke Filter",
+    "strNameFriendly" : "Smoke Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter06Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSmokeFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter06,null",
+      "Destructable,StatDamage,ACTFilter06Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter06Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter06",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter06Off",
+    "strNameShort" : "Smoke Filter",
+    "strNameFriendly" : "Smoke Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter06Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSmokeFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter06Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter06Closed",
+    "jsonPI"            : "Filter06"
+  },
+  {
+    "strName" : "ItmFilter06Closed",
+    "strNameShort" : "Smoke Filter",
+    "strNameFriendly" : "Smoke Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Carbon Monoxide.",
+    "strItemDef" : "ItmFilter06Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSmokeFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter06Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter06Closed",
+    "jsonPI"            : "Filter06"
+  },
+
+
+  {
+    "strName" : "ItmSFilterC",
+    "strNameShort" : "Smoke Filter",
+    "strNameFriendly" : "Smoke Filter Component",
+    "strDesc" : "The Smoke filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmSFilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsSFilter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmSmokeFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsSmokeFilterL",
+      "heldR","HeldItmPartsSmokeFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+//Sulfuric Acid Filter
+
+  {
+    "strName" : "ItmFilter07Open",
+    "strNameShort" : "Sulfuric Acid Filter",
+    "strNameFriendly" : "Sulfuric Acid Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Sulfuric Acid.",
+    "strItemDef" : "ItmFilter07Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSulfuricAcidFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter07,null",
+      "Destructable,StatDamage,ACTFilter07Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter07Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter07",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter07Off",
+    "strNameShort" : "Sulfuric Acid Filter",
+    "strNameFriendly" : "SulfuricAcid Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Sulfuric Acid.",
+    "strItemDef" : "ItmFilter07Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSulfuricAcidFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter07Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter07Closed",
+    "jsonPI"            : "Filter07"
+  },
+  {
+    "strName" : "ItmFilter07Closed",
+    "strNameShort" : "Sulfuric Acid Filter",
+    "strNameFriendly" : "Sulfuric Acid Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for Sulfuric Acid.",
+    "strItemDef" : "ItmFilter07Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSulfuricAcidFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter07Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter07Closed",
+    "jsonPI"            : "Filter07"
+  },
+
+
+  {
+    "strName" : "ItmH2SO4FilterC",
+    "strNameShort" : "H2SO4Filter",
+    "strNameFriendly" : "SulfuricAcid Filter Component",
+    "strDesc" : "The Sulfuric Acid filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmH2SO4FilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsH2SO4Filter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmSulfuricAcidFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsSulfuricAcidFilterL",
+      "heldR","HeldItmPartsSulfuricAcidFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  },
+
+//Ammonia Filter
+
+  {
+    "strName" : "ItmFilter08Open",
+    "strNameShort" : "Ammonia Filter",
+    "strNameFriendly" : "Ammonia Filter (Open)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for ammonia.",
+    "strItemDef" : "ItmFilter08Open",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAmmoniaFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsOpen=1.0x1",
+      "IsPowered=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasRespire2,Filter03,null",
+      "Destructable,StatDamage,ACTFilter08Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter08Open",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "Filter08",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmFilter08Off",
+    "strNameShort" : "Ammonia Filter",
+    "strNameFriendly" : "Ammonia Filter (Off)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for ammonia.",
+    "strItemDef" : "ItmFilter08Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAmmoniaFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsOff=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "GasInput,0,16",
+      "GasOutput,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aTickers" : [
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTFilter08Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmFilter08Closed",
+    "jsonPI"            : "Filter08"
+  },
+  {
+    "strName" : "ItmFilter08Closed",
+    "strNameShort" : "Ammonia Filter",
+    "strNameFriendly" : "Ammonia Filter (Closed)",
+    "strDesc" : "The A'Kyer Astronautics gas concentrator, a component typically used in life support systems to recycle air. This filter includes a filter for ammonia.",
+    "strItemDef" : "ItmFilter08Closed",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAmmoniaFilter=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsAutomated=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsPowered=1.0x1",
+      "StatBasePrice=1.0x2335.0",
+      "StatDismantleProgressMax=1.0x120",
+      "StatInstallProgressMax=1.0x600",
+      "StatUninstallProgressMax=1.0x600",
+      "StatMass=1.0x10",
+      "StatDamageMax=1.0x10",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "RoomA,0,16",
+      "RoomB,0,-16",
+      "PowerSource,0,0",
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [      
+      "Destructable,StatDamage,ACTFilter08Dmg,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "strPortraitImg"  : "ItmFilter08Closed",
+    "jsonPI"            : "Filter08"
+  },
+
+
+  {
+    "strName" : "ItmNH3FilterC",
+    "strNameShort" : "NH3Filter",
+    "strNameFriendly" : "Ammonia Filter Component",
+    "strDesc" : "The Ammonia filter, to be installed into a wall-mounted concentrator. Technically, the device this installed in isn't a filter, but everyone calls it one anyway.",
+    "strItemDef" : "ItmNH3FilterC",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsSolid=1.0x1.0",
+      "IsBrittle=1.0x1",
+      "IsParts=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsNH3Filter=1.0x1",
+      "StatBasePrice=1.0x14.5",
+      "StatMass=1.0x0.5",
+      "StatDamageMax=1.0x3",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAmmoniaFilter",
+    "mapSlotEffects" : [
+      "heldL","HeldItmPartsAmmoniaFilterL",
+      "heldR","HeldItmPartsAmmoniaFilterR"
+    ],
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound"
+  }
+]

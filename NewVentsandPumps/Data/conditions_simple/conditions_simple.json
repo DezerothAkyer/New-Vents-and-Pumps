@@ -5,8 +5,30 @@
       		// [strName], [strNameFriendly], [strDesc], [nDisplaySelf], [nDisplayOther], [strColor], [bInvert]
 
       "IsGott","Gott","[us] [is] a Gott brand item.","2","2","Neutral", "false",
-      "IsRyokka","Ryokka","[us] [is] a Ryokka brand item.","2","2","Neutral", "false"
-      
+      "IsRyokka","Ryokka","[us] [is] a Ryokka brand item.","2","2","Neutral", "false",
+
+      "IsFilter","Filter","[us] [is] a Filter.","2","2","Neutral", "false",
+      "IsOxygenFilter","Oxygen Filter","[us] [is] an Oxygen Filter.","2","2","Neutral", "false",
+      "IsO2Filter","Oxygen Filter","[us] [is] an Oxygen Filter.","2","2","Neutral", "false",
+
+      "IsAmmoniaFilter","Ammonia Filter","[us] [is] an Ammonia Filter.","2","2","Neutral", "false",
+      "IsNH3Filter","Ammonia Filter","[us] [is] an Ammonia Filter.","2","2","Neutral", "false",
+
+      "IsCarbonDioxideFilter","Carbon Dioxide Filter","[us] [is] an Carbon Dioxide Filter.","2","2","Neutral", "false",
+      "IsCO2Filter","Carbon Dioxide Filter","[us] [is] an Carbon Dioxide Filter.","2","2","Neutral", "false",
+
+      "IsCarbonMonoxideFilter","Carbon Monoxide Filter","[us] [is] an Carbon Monoxide Filter.","2","2","Neutral", "false",
+      "IsCOFilter","Carbon Monoxide Filter","[us] [is] an Carbon Monoxide Filter.","2","2","Neutral", "false",
+
+      "IsNitrogenFilter","Nitrogen Filter","[us] [is] an Nitrogen Filter.","2","2","Neutral", "false",
+      "IsN2Filter","Nitrogen Filter","[us] [is] an Nitrogen Filter.","2","2","Neutral", "false",
+
+      "IsSmokeFilter","Smoke Filter","[us] [is] an Smoke Filter.","2","2","Neutral", "false",
+      "IsSFilter","Smoke Filter","[us] [is] an Smoke Filter.","2","2","Neutral", "false",
+
+      "IsSulfuricAcidFilter","Sulfuric Acid Filter","[us] [is] an Sulfuric Acid Filter.","2","2","Neutral", "false",
+      "IsH2SO4Filter","Sulfuric Acid Filter","[us] [is] an Sulfuric Acid Filter.","2","2","Neutral", "false"
+
     ]
   }
 ]

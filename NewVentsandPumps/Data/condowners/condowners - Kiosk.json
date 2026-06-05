@@ -1,0 +1,47 @@
+
+[  
+  {
+    "strName" : "ItmKioskVentandpumpShop01",
+    "strNameFriendly" : "General Hoover's Vent and Pump Post Exchange Kiosk",
+    "strDesc" : "General Hoover's been fighting a war; a war against the vacuum of space. At least, that's what the tagline on his hastily printed poster slapped on top of an old vending kiosk says. 'General' Hoover is a long-retired scav with a nose for HVAC systems. He won't sell you the choicest parts, but he'll always sell you something.",
+    "strItemDef" : "ItmKioskSupplies05",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "ACTKioskUseNPC",
+      "GUITradeKiosk"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInfiniteContainer=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsIndestructable=1.0x1",
+      "IsKioskNPC=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsReadyRestock=1.0x1.0",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsTraderNPC=1.0x1",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x70",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerUnlimited",
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-16"
+    ],
+    "aUpdateCommands" : [
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "Trade",
+      "Trade", "Trade",
+      "Trader", "TraderKioskVentandpumpShop"
+    ],
+    "strPortraitImg"  : "ItmKioskSupplies05",
+    "jsonPI"            : null,
+    "strAudioEmitter": "ITMKiosSupplies02Sound"
+  }
+]

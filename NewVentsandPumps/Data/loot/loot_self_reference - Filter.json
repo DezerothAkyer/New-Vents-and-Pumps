@@ -1,0 +1,188 @@
+[
+//Base Filter
+
+  {
+    "strName" : "ItmFilter01Loose",
+    "aCOs"    : [
+      "ItmFilter01Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter01Off",
+    "aCOs"    : [
+      "ItmFilter01Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter01Open",
+    "aCOs"    : [
+      "ItmFilter01Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter01Closed", "aCOs" : [ "ItmFilter01Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+  { "strName" : "ItmFilter01Loose", "aCOs" : [ "ItmFilter01Loose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Oxygen Filter
+
+  {
+    "strName" : "ItmFilter02Off",
+    "aCOs"    : [
+      "ItmFilter02Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter02Open",
+    "aCOs"    : [
+      "ItmFilter02Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter02Closed", "aCOs" : [ "ItmFilter02Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Nitrogen Filter
+
+  {
+    "strName" : "ItmFilter03Off",
+    "aCOs"    : [
+      "ItmFilter03Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter03Open",
+    "aCOs"    : [
+      "ItmFilter03Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter03Closed", "aCOs" : [ "ItmFilter03Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Carbon Monoxide Filter
+
+  {
+    "strName" : "ItmFilter04Off",
+    "aCOs"    : [
+      "ItmFilter04Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter04Open",
+    "aCOs"    : [
+      "ItmFilter04Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter04Closed", "aCOs" : [ "ItmFilter04Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Carbon Dioxide Filter
+
+  {
+    "strName" : "ItmFilter05Off",
+    "aCOs"    : [
+      "ItmFilter05Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter05Open",
+    "aCOs"    : [
+      "ItmFilter05Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter05Closed", "aCOs" : [ "ItmFilter05Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Smoke Filter
+
+  {
+    "strName" : "ItmFilter06Off",
+    "aCOs"    : [
+      "ItmFilter06Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter06Open",
+    "aCOs"    : [
+      "ItmFilter06Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter06Closed", "aCOs" : [ "ItmFilter06Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Sulfuric Acid Filter
+
+  {
+    "strName" : "ItmFilter07Off",
+    "aCOs"    : [
+      "ItmFilter07Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter07Open",
+    "aCOs"    : [
+      "ItmFilter07Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter07Closed", "aCOs" : [ "ItmFilter07Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+//Ammonia Filter
+
+  {
+    "strName" : "ItmFilter08Off",
+    "aCOs"    : [
+      "ItmFilter08Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmFilter08Open",
+    "aCOs"    : [
+      "ItmFilter08Open=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmFilter08Closed", "aCOs" : [ "ItmFilter08Closed=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" }
+
+]

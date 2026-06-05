@@ -1,0 +1,14 @@
+[
+  {
+    "strName" : "TraderKioskVentandpumpShop",
+    "dictGUIPropMap"       : [
+      "strLoot", "ItmKioskVentandpumpShopInv",
+      "strRestockCond", "IsReadyRestock",
+      "strTicker", "RestockSupplyKiosk",
+      "strLootBuyDiscount", "CONDTraderDiscountBuyKioskVentandpumpShop",
+      "strLootSellDiscount", "CONDTraderDiscountSellKioskVentandpumpShop",
+      "strLootCTsBuy", "TraderCTsBuyKioskVentandpumpShop",
+      "strLootCTsSell", "TraderCTsSellKioskVentandpumpShop"
+    ]
+  }
+]
