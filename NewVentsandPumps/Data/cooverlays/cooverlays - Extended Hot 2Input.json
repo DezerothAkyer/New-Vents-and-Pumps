@@ -1,0 +1,125 @@
+[
+    {
+        "strName" : "ItmAirPump14EHDmg",
+        "strNameFriendly" : "Extended Air Pump (Damaged, Dual, Hot)",
+        "strImg" : "ItmAirPump14Dmg",
+        "strImgNorm" : "ItmAirPump14Dmgn",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmAirPump14Dmg",
+        "strCOBase"    : "ItmAirPumpDTE1Dmg",
+        "strCondLoot"    : "CNDOLAirPump14E",
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDTE1Dmg", "ItmAirPump14EHDmg",
+            "ItmAirPumpDTE1DmgLoose", "ItmAirPump14EHDmgLoose",
+            "ItmAirPumpDTE1Off", "ItmAirPump14EHOff",
+            "ItmAirPumpDTE1OnG", "ItmAirPump14EHOnG",
+            "ItmAirPumpDTE1OffLoose", "ItmAirPump14EHOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump14EHDmgLoose",
+        "strNameFriendly" : "Extended Air Pump (Damaged, Dual, Hot, Loose)",
+        "strImg" : "ItmAirPump14DmgLoose",
+        "strImgNorm" : "ItmAirPump14DmgLoosen",
+        "strImgDamaged" : "ItmAirPump14DmgLoose",
+        "strPortraitImg" : "ItmAirPump14DmgLoose",
+        "strCOBase"    : "ItmAirPumpDTE1DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump14E",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDTE1Dmg", "ItmAirPump14EHDmg",
+            "ItmAirPumpDTE1DmgLoose", "ItmAirPump14EHDmgLoose",
+            "ItmAirPumpDTE1Off", "ItmAirPump14EHOff",
+            "ItmAirPumpDTE1OnG", "ItmAirPump14EHOnG",
+            "ItmAirPumpDTE1OffLoose", "ItmAirPump14EHOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump14EHOff",
+        "strNameFriendly" : "Extended Air Pump (Off, Dual, Hot)",
+        "strImg" : "ItmAirPump14Off",
+        "strImgNorm" : "ItmAirPump14Offn",
+        "strImgDamaged" : "ItmAirPump14Dmg",
+        "strPortraitImg" : "ItmAirPump14Off",
+        "strCOBase"    : "ItmAirPumpDTE1Off",
+        "strCondLoot"    : "CNDOLAirPump14E",
+        "aInteractionsReplace" : [
+            "GUIAirPump", "GUIAirPump",
+            "DeactivatedualmodeE", "DeactivatedualmodeE",
+            "SettocoldD", "SettocoldD"
+        ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDTE1Dmg", "ItmAirPump14EHDmg",
+            "ItmAirPumpDTE1DmgLoose", "ItmAirPump14EHDmgLoose",
+            "ItmAirPumpDTE1Off", "ItmAirPump14EHOff",
+            "ItmAirPumpDTE1OnG", "ItmAirPump14EHOnG",
+            "ItmAirPumpDTE1OffLoose", "ItmAirPump14EHOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump14EHOffLoose",
+        "strNameFriendly" : "Extended Air Pump (Hot, Loose)",
+        "strImg" : "ItmAirPump14OffLoose",
+        "strImgNorm" : "ItmAirPump14OffLoosen",
+        "strImgDamaged" : "ItmAirPump14DmgLoose",
+        "strPortraitImg" : "ItmAirPump14OffLoose",
+        "strCOBase"    : "ItmAirPumpDTE1OffLoose",
+        "strCondLoot"    : "CNDOLAirPump14E",
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDTE1Dmg", "ItmAirPump14EHDmg",
+            "ItmAirPumpDTE1DmgLoose", "ItmAirPump14EHDmgLoose",
+            "ItmAirPumpDTE1Off", "ItmAirPump14EHOff",
+            "ItmAirPumpDTE1OnG", "ItmAirPump14EHOnG",
+            "ItmAirPumpDTE1OffLoose", "ItmAirPump14EHOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump14EHOnG",
+        "strNameFriendly" : "Extended Air Pump (OnG, Dual, Hot)",
+        "strImg" : "ItmAirPump14Off",
+        "strImgNorm" : "ItmAirPump14Offn",
+        "strImgDamaged" : "ItmAirPump14Dmg",
+        "strPortraitImg" : "ItmAirPump14Off",
+        "strCOBase"    : "ItmAirPumpDT1OnG",
+        "strCondLoot"    : "CNDOLAirPump14E",
+        "aInteractionsReplace" : [
+            "GUIAirPump", "GUIAirPump",
+            "DeactivatedualmodeE", "DeactivatedualmodeE",
+            "SettocoldD", "SettocoldD"
+        ],
+        "mapGUIPropMaps"   : [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDTE1Dmg", "ItmAirPump14EHDmg",
+            "ItmAirPumpDTE1DmgLoose", "ItmAirPump14EHDmgLoose",
+            "ItmAirPumpDTE1Off", "ItmAirPump14EHOff",
+            "ItmAirPumpDTE1OnG", "ItmAirPump14EHOnG",
+            "ItmAirPumpDTE1OffLoose", "ItmAirPump14EHOffLoose"
+        ]
+    }
+]  

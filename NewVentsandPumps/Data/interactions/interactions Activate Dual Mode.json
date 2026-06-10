@@ -1,0 +1,613 @@
+[
+      {
+        "strName" : "ActivatedualmodeA",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeAAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeAAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump07EOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeA",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeAAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeAAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump07Off"
+      },
+
+      {
+        "strName" : "ActivatedualmodeB",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeBAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeBAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump13EHOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeB",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeBAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeBAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump13HOff"
+      },
+
+      {
+        "strName" : "ActivatedualmodeC",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeCAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeCAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump13ECOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeC",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeCAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsMSHG",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeCAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsMSHG",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump13COff"
+      },
+
+      {
+        "strName" : "ActivatedualmodeD",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeDAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeDAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump06EOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeD",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeDAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeDAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump06Off"
+      },
+
+      {
+        "strName" : "ActivatedualmodeE",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeEAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeEAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump14EHOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeE",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeEAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeEAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump14HOff"
+      },
+
+      {
+        "strName" : "ActivatedualmodeF",
+        "strTitle" : "Activate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use dual-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "ActivatedualmodeFAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "ActivatedualmodeFAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] activates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump14ECOff"
+      },
+
+      {
+        "strName" : "DeactivatedualmodeF",
+        "strTitle" : "Deactivate Dual Mode",
+        "strDesc" : "[us] [starts] configuring [them].",
+        "strTooltip" : "Configures [them] to use single-input mode.",
+        "strActionGroup" : "Use",
+        "strTargetPoint" : "use",
+        "fTargetPointRange" : 1.5,
+        "strAnim"           : "Use",
+        "strBubble"         : "BblTouch",
+        "aInverse"          : [
+          "DeactivatedualmodeFAllow"
+        ],
+        "fDuration"         : 0.00010,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "nLogging"         : 1,
+        "bOpener"     : true,
+        "bHumanOnly"     : true,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsHumanAwake",
+        "CTTestThem"         : "IsLDPH",
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : null
+      },
+      {
+        "strName" : "DeactivatedualmodeFAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] deactivates dual mode.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "IsLDPH",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPump14COff"
+      }
+]

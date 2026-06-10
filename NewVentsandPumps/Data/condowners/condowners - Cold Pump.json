@@ -149,7 +149,7 @@
     "aTickers" : [ 
       "Power"
     ],
-    "jsonPI"            : "AirPump02"
+    "jsonPI"            : "AirPump02ColdTemp"
   },
   {
     "strName" : "ItmAirPump02ColdTempOffLoose",
@@ -248,7 +248,7 @@
     "aTickers" : [ 
       "Power"
     ],
-    "jsonPI"            : "AirPump02",
+    "jsonPI"            : "AirPump02ColdTemp",
     "strAudioEmitter": "ItmAirPump02OnGSound"
   }
 ]

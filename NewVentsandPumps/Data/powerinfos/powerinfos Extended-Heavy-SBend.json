@@ -1,0 +1,129 @@
+[
+{
+    "strName" : "AirPumpD1",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpD1OnAllow",
+    "strIntPowerOff": "MSAirPumpD1OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpDE1",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpDE1OnAllow",
+    "strIntPowerOff": "MSAirPumpDE1OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpDT1",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpDT1OnAllow",
+    "strIntPowerOff": "MSAirPumpDT1OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpDTE1",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpDTE1OnAllow",
+    "strIntPowerOff": "MSAirPumpDTE1OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpD2",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpD2OnAllow",
+    "strIntPowerOff": "MSAirPumpD2OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpDT2",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpDT2OnAllow",
+    "strIntPowerOff": "MSAirPumpDT2OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpD3",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpD3OnAllow",
+    "strIntPowerOff": "MSAirPumpD3OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  },
+
+{
+    "strName" : "AirPumpDT3",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPumpDT3OnAllow",
+    "strIntPowerOff": "MSAirPumpDT3OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  }
+]

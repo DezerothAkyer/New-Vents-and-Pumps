@@ -1,0 +1,681 @@
+[
+{
+        "strName" : "MSAirPumpD1Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD1Damage"
+      },
+      {
+        "strName" : "MSAirPumpD1Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD1LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD1LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpD1LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD1OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD1Off"
+      },
+      {
+        "strName" : "MSAirPumpD1OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD1OnG"
+      },
+
+{
+        "strName" : "MSAirPumpDE1Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDE1Damage"
+      },
+      {
+        "strName" : "MSAirPumpDE1Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDE1LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDE1LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpDE1LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDE1OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDE1Off"
+      },
+      {
+        "strName" : "MSAirPumpDE1OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDE1OnG"
+      },
+
+{
+        "strName" : "MSAirPumpDT1Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT1Damage"
+      },
+      {
+        "strName" : "MSAirPumpDT1Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT1LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT1LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpDT1LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT1OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT1Off"
+      },
+      {
+        "strName" : "MSAirPumpDT1OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT1OnG"
+      },
+
+{
+        "strName" : "MSAirPumpDTE1Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDTE1Damage"
+      },
+      {
+        "strName" : "MSAirPumpDTE1Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDTE1LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDTE1LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpDTE1LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDTE1OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDTE1Off"
+      },
+      {
+        "strName" : "MSAirPumpDTE1OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDTE1OnG"
+      },
+
+{
+        "strName" : "MSAirPumpD2Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD2Damage"
+      },
+      {
+        "strName" : "MSAirPumpD2Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD2LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD2LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpD2LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD2OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD2Off"
+      },
+      {
+        "strName" : "MSAirPumpD2OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD2OnG"
+      },
+
+{
+        "strName" : "MSAirPumpDT2Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT2Damage"
+      },
+      {
+        "strName" : "MSAirPumpDT2Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT2LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT2LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpDT2LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT2OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT2Off"
+      },
+      {
+        "strName" : "MSAirPumpDT2OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT2OnG"
+      },
+
+{
+        "strName" : "MSAirPumpD3Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD3Damage"
+      },
+      {
+        "strName" : "MSAirPumpD3Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD3LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpD3LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpD3LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpD3OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD3Off"
+      },
+      {
+        "strName" : "MSAirPumpD3OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpD3OnG"
+      },
+
+{
+        "strName" : "MSAirPumpDT3Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT3Damage"
+      },
+      {
+        "strName" : "MSAirPumpDT3Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT3LooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpDT3LooseDamage"
+      },
+      {
+        "strName" : "MSAirPumpDT3LooseDestroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] [is] destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmAirPumpComponentsShell"
+      },
+      {
+        "strName" : "MSAirPumpDT3OffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [switches] off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsNotOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT3Off"
+      },
+      {
+        "strName" : "MSAirPumpDT3OnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] [powers] up.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmAirPumpDT3OnG"
+      }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "strName" : "AirPump02HotTemp",
+    "aInputPts"      : [
+      "PowerA"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSAirPump02HotTempOnAllow",
+    "strIntPowerOff": "MSAirPump02HotTempOffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true,
+    "strOverrideCond" : "IsTurboOn",
+    "fOverrideAmount" : 1.5e-4
+  }
+]

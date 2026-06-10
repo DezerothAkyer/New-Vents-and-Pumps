@@ -107,7 +107,6 @@
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
-      "Settocold",
       "GUIAirPump"
     ],
     "aStartingConds" : [
@@ -204,7 +203,6 @@
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
-      "Settocold",
       "GUIAirPump"
     ],
     "aStartingConds" : [

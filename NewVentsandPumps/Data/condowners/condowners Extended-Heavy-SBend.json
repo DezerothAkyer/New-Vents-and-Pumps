@@ -1,0 +1,2080 @@
+[
+{
+    "strName" : "ItmAirPumpD1Off",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Off)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpD1Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "ActivatedualmodeA",
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD1"
+  },
+
+  {
+    "strName" : "ItmAirPumpD1OnG",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpD1Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "ActivatedualmodeA",
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,32",
+      "GasInputB,0,8",
+      "GasOutput,0,-24",
+      "PowerA,0,-8"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump07,Panel A",
+      "GasPump,AirPump08,Panel A",
+      "Destructable,StatDamage,ACTAirPumpD1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD1",
+    "strAudioEmitter": "ItmAirPumpD1OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpD1OffLoose",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Loose)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpD1OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD1OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpD1Dmg",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpD1Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD1OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "strAudioEmitter" : "ItmAirPumpD1DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpD1DmgLoose",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Loose)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpD1DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD1OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose",
+    "strAudioEmitter" : "ItmAirPumpD1DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpDE1Off",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Off)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpDE1Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "DeactivatedualmodeA",
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDE1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDE1"
+  },
+
+  {
+    "strName" : "ItmAirPumpDE1OnG",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpDE1Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "DeactivatedualmodeA",
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,32",
+      "GasInputB,0,8",
+      "GasOutput,0,-24",
+      "PowerA,0,-8"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump06,Panel A",
+      "Destructable,StatDamage,ACTAirPumpDE1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDE1",
+    "strAudioEmitter": "ItmAirPumpD1OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpDE1OffLoose",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Loose)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpDE1OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDE1OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpDE1Dmg",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpDE1Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDE1OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "strAudioEmitter" : "ItmAirPumpD1DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpDE1DmgLoose",
+    "strNameShort" : "Extended Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Loose)",
+    "strDesc" : "The Langdon-Phillips Standard Issue gas pump, commonly found on their warships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in deployment.",
+    "strItemDef" : "ItmAirPumpDE1DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDE1OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose",
+    "strAudioEmitter" : "ItmAirPumpD1DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpDT1Off",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Off, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDT1Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "ActivatedualmodeE",
+      "SettocoldA"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT1"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT1OnG",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDT1Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "ActivatedualmodeE",
+      "SettocoldA"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,32",
+      "GasInputB,0,8",
+      "GasOutput,0,-24",
+      "PowerA,0,-8"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump07,Panel A",
+      "GasPump,AirPump08,Panel A",
+      "Destructable,StatDamage,ACTAirPumpDT1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT1",
+    "strAudioEmitter": "ItmAirPumpDT1OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT1OffLoose",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Loose, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDT1OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT1OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT1Dmg",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDT1Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT1OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "strAudioEmitter" : "ItmAirPumpDT1DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpDT1DmgLoose",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Loose, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDT1DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT1OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose",
+    "strAudioEmitter" : "ItmAirPumpDT1DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpDTE1Off",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Off, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDTE1Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "DeactivatedualmodeE",
+      "SettocoldD"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDTE1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,0,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDTE1"
+  },
+
+  {
+    "strName" : "ItmAirPumpDTE1OnG",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDTE1Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "DeactivatedualmodeE",
+      "SettocoldD"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,0,32",
+      "GasInputB,0,8",
+      "GasOutput,0,-24",
+      "PowerA,0,-8"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump06,Panel A",
+      "Destructable,StatDamage,ACTAirPumpDTE1OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDTE1",
+    "strAudioEmitter": "ItmAirPumpDT1OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpDTE1OffLoose",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Loose, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDTE1OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDTE1OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpDTE1Dmg",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDTE1Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDTE1OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1Off",
+    "strAudioEmitter" : "ItmAirPumpDT1DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpDTE1DmgLoose",
+    "strNameShort" : "Extended Temperature Pump",
+    "strNameFriendly" : "Extended Air Pump (Damaged, Loose, Temp)",
+    "strDesc" : "The Minsheng Corporate Exclusive gas pump, commonly found on their ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is a heavy-duty model, featuring the ability to switch to dual-intake mode for flexibility in construction. Additionally, this unit has been reconfigured to monitor temperature changes rather than pressure changes.",
+    "strItemDef" : "ItmAirPumpDTE1DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDTE1OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD1OffLoose",
+    "strAudioEmitter" : "ItmAirPumpDT1DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpD2Off",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Off)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpD2Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD2OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,-24",
+      "PowerA,-8,-16",
+      "PowerB, 8,-16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD2"
+  },
+
+  {
+    "strName" : "ItmAirPumpD2OnG",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpD2Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-24",
+      "GasInput,-8,32",
+      "GasInputB,6,-8",
+      "GasOutput,8,-32",
+      "GasOutputB,-8,-32",
+      "PowerA,-8,-16",
+      "PowerB, 8,-16"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump04,Panel A",
+      "GasPump,AirPump05,Panel A",
+      "Destructable,StatDamage,ACTAirPumpD2OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD2",
+    "strAudioEmitter": "ItmAirPumpD2OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpD2OffLoose",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Loose)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpD2OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD2OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpD2Dmg",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Damaged)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpD2Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD2OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "strAudioEmitter" : "ItmAirPumpD2DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpD2DmgLoose",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Damaged, Loose)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpD2DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD2OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2OffLoose",
+    "strAudioEmitter" : "ItmAirPumpD2DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpDT2Off",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Off, Temp)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpDT2Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "SettocoldE"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT2OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,-24",
+      "PowerA,-8,-16",
+      "PowerB, 8,-16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT2"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT2OnG",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Temp)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpDT2Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "SettocoldE"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-24",
+      "GasInput,-8,32",
+      "GasInputB,6,-8",
+      "GasOutput,8,-32",
+      "GasOutputB,-8,-32",
+      "PowerA,-8,-16",
+      "PowerB, 8,-16"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump02,Panel A",
+      "Destructable,StatDamage,ACTAirPumpDT2OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT2",
+    "strAudioEmitter": "ItmAirPumpDT2OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT2OffLoose",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Loose, Temp)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpDT2OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT2OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT2Dmg",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Damaged, Temp)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpDT2Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT2OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2Off",
+    "strAudioEmitter" : "ItmAirPumpDT2DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpDT2DmgLoose",
+    "strNameShort" : "Heavy Pump",
+    "strNameFriendly" : "Heavy Air Pump (Damaged, Loose, Temp)",
+    "strDesc" : "The Testudo Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an industrial model, capable of moving vast quantities of air with little difficulty.",
+    "strItemDef" : "ItmAirPumpDT2DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,-24"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT2OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD2OffLoose",
+    "strAudioEmitter" : "ItmAirPumpDT2DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpD3Off",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Off)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpD3Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD3OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "PowerA,16,0",
+      "PowerB,0,0",
+      "PowerC,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD3"
+  },
+
+  {
+    "strName" : "ItmAirPumpD3OnG",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpD3Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0",
+      "GasInput,16,16",
+      "GasOutput,-16,-16",
+      "PowerA,16,0",
+      "PowerB,0,0",
+      "PowerC,-16,0"
+      ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump02,Panel A",
+      "Destructable,StatDamage,ACTAirPumpD3OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpD3",
+    "strAudioEmitter": "ItmAirPumpD3OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpD3OffLoose",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Loose)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpD3OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD3OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpD3Dmg",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Damaged)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpD3Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD3OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "strAudioEmitter" : "ItmAirPumpD3DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpD3DmgLoose",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Damaged, Loose)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpD3DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPump"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpD3OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3OffLoose",
+    "strAudioEmitter" : "ItmAirPumpD3DmgSound"
+  },
+
+{
+    "strName" : "ItmAirPumpDT3Off",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Off, Temp)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpDT3Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+      "aInteractions" : [
+      "GUIAirPump",
+      "SettocoldC"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT3OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapPoints"      : [
+      "Use,0,0",
+      "PowerA,16,0",
+      "PowerB,0,0",
+      "PowerC,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT3"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT3OnG",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Temp)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpDT3Green",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump",
+      "SettocoldC"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsPowered=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Use,0,0",
+      "GasInput,16,16",
+      "GasOutput,-16,-16",
+      "PowerA,16,0",
+      "PowerB,0,0",
+      "PowerC,-16,0"
+      ],
+    "aUpdateCommands" : [
+      "GasPump,AirPump02,Panel A",
+      "Destructable,StatDamage,ACTAirPumpDT3OffDamage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "AirPumpDT3",
+    "strAudioEmitter": "ItmAirPumpDT3OnGSound"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT3OffLoose",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Loose, Temp)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpDT3OffLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2050.0",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT3OffLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3OffLoose"
+  },
+
+  {
+    "strName" : "ItmAirPumpDT3Dmg",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Damaged, Temp)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpDT3Dmg",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "GUIAirPump"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x2",
+      "IsInstalled=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsSlowMode=1x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot",
+      "Electrical"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT3OffDestroy,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3Off",
+    "strAudioEmitter" : "ItmAirPumpDT3DmgSound"
+  },
+  {
+    "strName" : "ItmAirPumpDT3DmgLoose",
+    "strNameShort" : "S-Bend Pump",
+    "strNameFriendly" : "S-Bend Air Pump (Damaged, Loose, Temp)",
+    "strDesc" : "The Kang Brand gas pump, commonly found on ships as part of the life support system. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain safe cabin pressure. This is an S-shape mode, designed to allow for HVAC even in awkward spaces.",
+    "strItemDef" : "ItmAirPumpDT3DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirPump=1.0x1",
+      "IsOff=1.0x1",
+      "IsReverse=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x510.0",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x11",
+      "StatDamageMax=1.0x11",
+      "IsMechanical=1.0x1",
+      "IsCategoryHVAC=1.0x1"
+    ],
+    "mapPoints"      : [
+      "use,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A",
+      "AirPumpTemperatureHot"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTAirPumpDT3OffLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmAirPumpD3OffLoose",
+    "strAudioEmitter" : "ItmAirPumpDT3DmgSound"
+  }
+]

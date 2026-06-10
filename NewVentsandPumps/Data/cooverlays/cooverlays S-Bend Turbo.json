@@ -1,0 +1,90 @@
+[
+    {
+        "strName" : "ItmAirPump11Dmg",
+        "strNameFriendly" : "S-Bend Air Pump (Damaged)",
+        "strImg" : "ItmAirPump11Dmg",
+        "strImgNorm" : "ItmAirPump11Dmgn",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmAirPump11Dmg",
+        "strCOBase"    : "ItmAirPumpD3Dmg",
+        "strCondLoot"    : "CNDOLAirPump11",
+        "mapModeSwitches"    : [
+            "ItmAirPumpD3Dmg", "ItmAirPump11Dmg",
+            "ItmAirPumpD3DmgLoose", "ItmAirPump11DmgLoose",
+            "ItmAirPumpD3Off", "ItmAirPump11Off",
+            "ItmAirPumpD3OnG", "ItmAirPump11OnG",
+            "ItmAirPumpD3OffLoose", "ItmAirPump11OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump11DmgLoose",
+        "strNameFriendly" : "S-Bend Air Pump (Damaged, Loose)",
+        "strImg" : "ItmAirPump11DmgLoose",
+        "strImgNorm" : "ItmAirPump11DmgLoosen",
+        "strImgDamaged" : "ItmAirPump11DmgLoose",
+        "strPortraitImg" : "ItmAirPump11DmgLoose",
+        "strCOBase"    : "ItmAirPumpD3DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump11",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpD3Dmg", "ItmAirPump11Dmg",
+            "ItmAirPumpD3DmgLoose", "ItmAirPump11DmgLoose",
+            "ItmAirPumpD3Off", "ItmAirPump11Off",
+            "ItmAirPumpD3OnG", "ItmAirPump11OnG",
+            "ItmAirPumpD3OffLoose", "ItmAirPump11OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump11Off",
+        "strNameFriendly" : "S-Bend Air Pump (Off)",
+        "strImg" : "ItmAirPump11Off",
+        "strImgNorm" : "ItmAirPump11Offn",
+        "strImgDamaged" : "ItmAirPump11Dmg",
+        "strPortraitImg" : "ItmAirPump11Off",
+        "strCOBase"    : "ItmAirPumpD3Off",
+        "strCondLoot"    : "CNDOLAirPump11",
+        "mapModeSwitches"    : [
+            "ItmAirPumpD3Dmg", "ItmAirPump11Dmg",
+            "ItmAirPumpD3DmgLoose", "ItmAirPump11DmgLoose",
+            "ItmAirPumpD3Off", "ItmAirPump11Off",
+            "ItmAirPumpD3OnG", "ItmAirPump11OnG",
+            "ItmAirPumpD3OffLoose", "ItmAirPump11OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump11OffLoose",
+        "strNameFriendly" : "S-Bend Air Pump (Loose)",
+        "strImg" : "ItmAirPump11OffLoose",
+        "strImgNorm" : "ItmAirPump11OffLoosen",
+        "strImgDamaged" : "ItmAirPump11DmgLoose",
+        "strPortraitImg" : "ItmAirPump11OffLoose",
+        "strCOBase"    : "ItmAirPumpD3OffLoose",
+        "strCondLoot"    : "CNDOLAirPump11",
+        "mapModeSwitches"    : [
+            "ItmAirPumpD3Dmg", "ItmAirPump11Dmg",
+            "ItmAirPumpD3DmgLoose", "ItmAirPump11DmgLoose",
+            "ItmAirPumpD3Off", "ItmAirPump11Off",
+            "ItmAirPumpD3OnG", "ItmAirPump11OnG",
+            "ItmAirPumpD3OffLoose", "ItmAirPump11OffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump11OnG",
+        "strNameFriendly" : "S-Bend Air Pump (OnG)",
+        "strImg" : "ItmAirPump11Off",
+        "strImgNorm" : "ItmAirPump11Offn",
+        "strImgDamaged" : "ItmAirPump11Dmg",
+        "strPortraitImg" : "ItmAirPump11Off",
+        "strCOBase"    : "ItmAirPumpD3OnG",
+        "strCondLoot"    : "CNDOLAirPump11",
+        "mapModeSwitches"    : [
+            "ItmAirPumpD3Dmg", "ItmAirPump11Dmg",
+            "ItmAirPumpD3DmgLoose", "ItmAirPump11DmgLoose",
+            "ItmAirPumpD3Off", "ItmAirPump11Off",
+            "ItmAirPumpD3OnG", "ItmAirPump11OnG",
+            "ItmAirPumpD3OffLoose", "ItmAirPump11OffLoose"
+        ]
+    }
+]

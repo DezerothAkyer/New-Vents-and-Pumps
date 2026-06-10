@@ -53,7 +53,7 @@
     "strAudioEmitter" : "ItmAirPump02DmgSound"
   },
   {
-    "strName" : "ItmAirPump02DmgHotTempLoose",
+    "strName" : "ItmAirPump02DmgLoose",
     "strNameShort" : "Pump",
     "strNameFriendly" : "Air Pump (Hot Temp, Damaged, Loose)",
     "strDesc" : "The Gott HVAC Series gas pump. Will draw gas from any enclosed container or room, and pump those contents into the target area. Can link to relevant alarms to maintain temperature through gas exchange.",
@@ -150,7 +150,7 @@
     "aTickers" : [ 
       "Power"
     ],
-    "jsonPI"            : "AirPump02"
+    "jsonPI"            : "AirPump02HotTemp"
   },
   {
     "strName" : "ItmAirPump02HotTempOffLoose",
@@ -251,7 +251,7 @@
     "aTickers" : [ 
       "Power"
     ],
-    "jsonPI"            : "AirPump02",
+    "jsonPI"            : "AirPump02HotTemp",
     "strAudioEmitter": "ItmAirPump02OnGSound"
   }
 ]

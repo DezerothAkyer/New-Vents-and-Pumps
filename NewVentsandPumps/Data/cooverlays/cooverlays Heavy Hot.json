@@ -1,0 +1,128 @@
+[
+    {
+        "strName": "ItmAirPump10HDmg",
+        "strNameFriendly": "Heavy Air Pump (Damaged, Hot)",
+        "strImg": "ItmAirPump10Dmg",
+        "strImgNorm": "ItmAirPump10Dmgn",
+        "strImgDamaged": "ItmAirPump10",
+        "strPortraitImg": "ItmAirPump10Dmg",
+        "strCOBase": "ItmAirPumpDT2Dmg",
+        "strCondLoot": "CNDOLAirPump10",
+        "mapGUIPropMaps": [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches": [
+            "ItmAirPumpDT2Dmg", "ItmAirPump10HDmg",
+            "ItmAirPumpDT2DmgLoose", "ItmAirPump10HDmgLoose",
+            "ItmAirPumpDT2Off", "ItmAirPump10HOff",
+            "ItmAirPumpDT2OnG", "ItmAirPump10HOnG",
+            "ItmAirPumpDT2OffLoose", "ItmAirPump10HOffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump10HDmgLoose",
+        "strNameFriendly": "Heavy Air Pump (Damaged, Hot, Loose)",
+        "strImg": "ItmAirPump10DmgLoose",
+        "strImgNorm": "ItmAirPump10DmgLoosen",
+        "strImgDamaged": "ItmAirPump10DmgLoose",
+        "strPortraitImg": "ItmAirPump10DmgLoose",
+        "strCOBase": "ItmAirPumpDT2DmgLoose",
+        "strCondLoot": "CNDOLAirPump10",
+        "mapSlotEffects": [
+            "drag",
+            "Blank"
+        ],
+        "mapGUIPropMaps": [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches": [
+            "ItmAirPumpDT2Dmg", "ItmAirPump10HDmg",
+            "ItmAirPumpDT2DmgLoose", "ItmAirPump10HDmgLoose",
+            "ItmAirPumpDT2Off", "ItmAirPump10HOff",
+            "ItmAirPumpDT2OnG", "ItmAirPump10HOnG",
+            "ItmAirPumpDT2OffLoose", "ItmAirPump10HOffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump10HOff",
+        "strNameFriendly": "Heavy Air Pump (Off, Hot)",
+        "strImg": "ItmAirPump10Off",
+        "strImgNorm": "ItmAirPump10Offn",
+        "strImgDamaged": "ItmAirPump10Dmg",
+        "strPortraitImg": "ItmAirPump10Off",
+        "strCOBase": "ItmAirPumpDT2Off",
+        "strCondLoot": "CNDOLAirPump10",
+        "aInteractionsReplace": [
+            "GUIAirPump", "GUIAirPump",
+            "SettocoldE", "SettocoldE"
+        ],
+        "mapGUIPropMaps": [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches": [
+            "ItmAirPumpDT2Dmg", "ItmAirPump10HDmg",
+            "ItmAirPumpDT2DmgLoose", "ItmAirPump10HDmgLoose",
+            "ItmAirPumpDT2Off", "ItmAirPump10HOff",
+            "ItmAirPumpDT2OnG", "ItmAirPump10HOnG",
+            "ItmAirPumpDT2OffLoose", "ItmAirPump10HOffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump10HOnG",
+        "strNameFriendly": "Heavy Air Pump (OnG, Hot)",
+        "strImg": "ItmAirPump10Off",
+        "strImgNorm": "ItmAirPump10Offn",
+        "strImgDamaged": "ItmAirPump10Dmg",
+        "strPortraitImg": "ItmAirPump10Off",
+        "strCOBase": "ItmAirPumpDT2OnG",
+        "strCondLoot": "CNDOLAirPump10",
+        "aInteractionsReplace": [
+            "GUIAirPump", "GUIAirPump",
+            "SettocoldE", "SettocoldE"
+        ],
+        "mapGUIPropMaps": [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches": [
+            "ItmAirPumpDT2Dmg", "ItmAirPump10HDmg",
+            "ItmAirPumpDT2DmgLoose", "ItmAirPump10HDmgLoose",
+            "ItmAirPumpDT2Off", "ItmAirPump10HOff",
+            "ItmAirPumpDT2OnG", "ItmAirPump10HOnG",
+            "ItmAirPumpDT2OffLoose", "ItmAirPump10HOffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump10HOffLoose",
+        "strNameFriendly": "Heavy Air Pump (Hot, Loose)",
+        "strImg": "ItmAirPump10OffLoose",
+        "strImgNorm": "ItmAirPump10OffLoosen",
+        "strImgDamaged": "ItmAirPump10DmgLoose",
+        "strPortraitImg": "ItmAirPump10OffLoose",
+        "strCOBase": "ItmAirPumpDT2OffLoose",
+        "strCondLoot": "CNDOLAirPump10",
+        "mapSlotEffects": [
+            "drag",
+            "Blank"
+        ],
+        "mapGUIPropMaps": [
+            "Panel A",
+            "AirPumpTemperatureHot",
+            "Electrical"
+        ],
+        "mapModeSwitches": [
+            "ItmAirPumpDT2Dmg", "ItmAirPump10HDmg",
+            "ItmAirPumpDT2DmgLoose", "ItmAirPump10HDmgLoose",
+            "ItmAirPumpDT2Off", "ItmAirPump10HOff",
+            "ItmAirPumpDT2OnG", "ItmAirPump10HOnG",
+            "ItmAirPumpDT2OffLoose", "ItmAirPump10HOffLoose"
+        ]
+    }
+]

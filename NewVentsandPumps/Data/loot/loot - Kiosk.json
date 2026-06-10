@@ -10,8 +10,17 @@
     "aCOs"    : [
     ],
     "aLoots"  : [
-      "ItmAirPump01DmgColdTemp=1.0x1-2",
-      "ItmAirPump03DmgColdTemp=1.0x2-4",
+
+      "ItmAirPump14CDmg=1.0x2-4",
+      "ItmAirPump06Dmg=1.0x2-4",
+      "ItmAirPump13CDmg=1.0x2-4",
+      "ItmAirPump07Dmg=1.0x2-4",
+      "ItmAirPump10CDmg=1.0x2-4",
+      "ItmAirPump15CDmg=1.0x2-4",
+      "ItmAirPump08Dmg=1.0x2-4",
+      "ItmAirPump09Dmg=1.0x2-4",
+      "ItmAirPump16CDmg=1.0x2-4",
+      "ItmAirPump12Dmg=1.0x2-4",
       "ItmAirPump01HotTempOff=1.0x2-4",
       "ItmAirPump03HotTempOff=1.0x2-4"
     ],

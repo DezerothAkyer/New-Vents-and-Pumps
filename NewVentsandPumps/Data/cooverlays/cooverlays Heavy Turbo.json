@@ -1,0 +1,95 @@
+[
+    {
+        "strName": "ItmAirPump08Dmg",
+        "strNameFriendly": "Heavy Air Pump (Damaged)",
+        "strImg": "ItmAirPump08Dmg",
+        "strImgNorm": "ItmAirPump08Dmgn",
+        "strImgDamaged": "ItmAirPump08",
+        "strPortraitImg": "ItmAirPump08Dmg",
+        "strCOBase": "ItmAirPumpD2Dmg",
+        "strCondLoot": "CNDOLAirPump08",
+        "mapModeSwitches": [
+            "ItmAirPumpD2Dmg", "ItmAirPump08Dmg",
+            "ItmAirPumpD2DmgLoose", "ItmAirPump08DmgLoose",
+            "ItmAirPumpD2Off", "ItmAirPump08Off",
+            "ItmAirPumpD2OnG", "ItmAirPump08OnG",
+            "ItmAirPumpD2OffLoose", "ItmAirPump08OffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump08DmgLoose",
+        "strNameFriendly": "Heavy Air Pump (Damaged, Loose)",
+        "strImg": "ItmAirPump08DmgLoose",
+        "strImgNorm": "ItmAirPump08DmgLoosen",
+        "strImgDamaged": "ItmAirPump08DmgLoose",
+        "strPortraitImg": "ItmAirPump08DmgLoose",
+        "strCOBase": "ItmAirPumpD2DmgLoose",
+        "strCondLoot": "CNDOLAirPump08",
+        "mapModeSwitches": [
+            "ItmAirPumpD2Dmg", "ItmAirPump08Dmg",
+            "ItmAirPumpD2DmgLoose", "ItmAirPump08DmgLoose",
+            "ItmAirPumpD2Off", "ItmAirPump08Off",
+            "ItmAirPumpD2OnG", "ItmAirPump08OnG",
+            "ItmAirPumpD2OffLoose", "ItmAirPump08OffLoose"
+        ],
+        "mapSlotEffects": [
+            "drag",
+            "Blank"
+        ]
+    },
+    {
+        "strName": "ItmAirPump08Off",
+        "strNameFriendly": "Heavy Air Pump (Off)",
+        "strImg": "ItmAirPump08Off",
+        "strImgNorm": "ItmAirPump08Offn",
+        "strImgDamaged": "ItmAirPump08Dmg",
+        "strPortraitImg": "ItmAirPump08Off",
+        "strCOBase": "ItmAirPumpD2Off",
+        "strCondLoot": "CNDOLAirPump08",
+        "mapModeSwitches": [
+            "ItmAirPumpD2Dmg", "ItmAirPump08Dmg",
+            "ItmAirPumpD2DmgLoose", "ItmAirPump08DmgLoose",
+            "ItmAirPumpD2Off", "ItmAirPump08Off",
+            "ItmAirPumpD2OnG", "ItmAirPump08OnG",
+            "ItmAirPumpD2OffLoose", "ItmAirPump08OffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump08OnG",
+        "strNameFriendly": "Heavy Air Pump (OnG)",
+        "strImg": "ItmAirPump08Off",
+        "strImgNorm": "ItmAirPump08Offn",
+        "strImgDamaged": "ItmAirPump08Dmg",
+        "strPortraitImg": "ItmAirPump08Off",
+        "strCOBase": "ItmAirPumpD2OnG",
+        "strCondLoot": "CNDOLAirPump08",
+        "mapModeSwitches": [
+            "ItmAirPumpD2Dmg", "ItmAirPump08Dmg",
+            "ItmAirPumpD2DmgLoose", "ItmAirPump08DmgLoose",
+            "ItmAirPumpD2Off", "ItmAirPump08Off",
+            "ItmAirPumpD2OnG", "ItmAirPump08OnG",
+            "ItmAirPumpD2OffLoose", "ItmAirPump08OffLoose"
+        ]
+    },
+    {
+        "strName": "ItmAirPump08OffLoose",
+        "strNameFriendly": "Heavy Air Pump (Loose)",
+        "strImg": "ItmAirPump08OffLoose",
+        "strImgNorm": "ItmAirPump08OffLoosen",
+        "strImgDamaged": "ItmAirPump08DmgLoose",
+        "strPortraitImg": "ItmAirPump08OffLoose",
+        "strCOBase": "ItmAirPumpD2OffLoose",
+        "strCondLoot": "CNDOLAirPump08",
+        "mapModeSwitches": [
+            "ItmAirPumpD2Dmg", "ItmAirPump08Dmg",
+            "ItmAirPumpD2DmgLoose", "ItmAirPump08DmgLoose",
+            "ItmAirPumpD2Off", "ItmAirPump08Off",
+            "ItmAirPumpD2OnG", "ItmAirPump08OnG",
+            "ItmAirPumpD2OffLoose", "ItmAirPump08OffLoose"
+        ],
+        "mapSlotEffects": [
+            "drag",
+            "Blank"
+        ]
+    }
+]

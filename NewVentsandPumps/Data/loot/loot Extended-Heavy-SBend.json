@@ -1,0 +1,100 @@
+[
+{ "strName" : "ACTAirPumpD1OffDamage", "aCOs" : [ "MSAirPumpD1Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD1OffDestroy", "aCOs" : [ "MSAirPumpD1Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD1OffLooseDamage", "aCOs" : [ "MSAirPumpD1LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD1OffLooseDestroy", "aCOs" : [ "MSAirPumpD1LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump06", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsLDPH=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump06Dmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsLDPH=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump07", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSHG=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpDE1OffDamage", "aCOs" : [ "MSAirPumpDE1Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDE1OffDestroy", "aCOs" : [ "MSAirPumpDE1Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDE1OffLooseDamage", "aCOs" : [ "MSAirPumpDE1LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDE1OffLooseDestroy", "aCOs" : [ "MSAirPumpDE1LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump06E", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsLDPH=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump06EDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsLDPH=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump07", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSHG=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpDT1OffDamage", "aCOs" : [ "MSAirPumpDT1Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT1OffDestroy", "aCOs" : [ "MSAirPumpDT1Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT1OffLooseDamage", "aCOs" : [ "MSAirPumpDT1LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT1OffLooseDestroy", "aCOs" : [ "MSAirPumpDT1LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump13C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump13CDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump14C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsLDPH=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump13H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump13HDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump14H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsLDPH=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpDTE1OffDamage", "aCOs" : [ "MSAirPumpDTE1Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDTE1OffDestroy", "aCOs" : [ "MSAirPumpDTE1Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDTE1OffLooseDamage", "aCOs" : [ "MSAirPumpDTE1LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDTE1OffLooseDestroy", "aCOs" : [ "MSAirPumpDTE1LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump13EH", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump13EHDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump14EH", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsLDPH=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump13EC", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump13ECDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMSHG=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump14EC", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsLDPH=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpD2OffDamage", "aCOs" : [ "MSAirPumpD2Damage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD2OffDestroy", "aCOs" : [ "MSAirPumpD2Destroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD2OffLooseDamage", "aCOs" : [ "MSAirPumpD2LooseDamage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD2OffLooseDestroy", "aCOs" : [ "MSAirPumpD2LooseDestroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump08", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMiura=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump08Dmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsMiura=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump09", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTSDO=1.0x1.0" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump09Dmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTSDO=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpDT2OffDamage", "aCOs" : [ "MSAirPumpDT2Damage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT2OffDestroy", "aCOs" : [ "MSAirPumpDT2Destroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT2OffLooseDamage", "aCOs" : [ "MSAirPumpDT2LooseDamage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT2OffLooseDestroy", "aCOs" : [ "MSAirPumpDT2LooseDestroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump10C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsAkyer=1.0x1.0" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump10CDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsAkyer=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump10H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsAkyer=1.0x1.0" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump10HDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsAkyer=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump15C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsWeber=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump15CDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsWeber=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump15H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsWeber=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump15HDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsWeber=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpD3OffDamage", "aCOs" : [ "MSAirPumpD3Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD3OffDestroy", "aCOs" : [ "MSAirPumpD3Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD3OffLooseDamage", "aCOs" : [ "MSAirPumpD3LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpD3OffLooseDestroy", "aCOs" : [ "MSAirPumpD3LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump01", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsSokol=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump01Dmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsSokol=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump03", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsKang=1.0x1.0" ], "aLoots" : [], "strType" : "condition" },
+
+{ "strName" : "ACTAirPumpDT3OffDamage", "aCOs" : [ "MSAirPumpDT3Damage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT3OffDestroy", "aCOs" : [ "MSAirPumpDT3Destroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT3OffLooseDamage", "aCOs" : [ "MSAirPumpDT3LooseDamage=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+  { "strName" : "ACTAirPumpDT3OffLooseDestroy", "aCOs" : [ "MSAirPumpDT3LooseDestroy=1.0x1" ], "aLoots" : [ ], "strType" : "interaction" },
+
+  { "strName" : "CNDOLAirPump16H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSS=1.0x1.0" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump16HDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSS=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump16C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSS=1.0x1.0" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump16CDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsMSS=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+
+  { "strName" : "CNDOLAirPump17H", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsVH=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump17HDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsVH=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+
+  { "strName" : "CNDOLAirPump17C", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsVH=1.0x1.0", "StatBasePrice=1.0x1306", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" },
+  { "strName" : "CNDOLAirPump17CDmg", "aCOs" : [ "-IsHiddenInv=1.0x1.0", "IsTurbo=1.0x20.0", "IsVH=1.0x1.0", "StatBasePrice=1.0x261", "StatInstallProgressMax=1.0x50" ], "aLoots" : [ ], "strType" : "condition" }
+]

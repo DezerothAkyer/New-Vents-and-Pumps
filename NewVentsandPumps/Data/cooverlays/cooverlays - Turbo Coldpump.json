@@ -6,7 +6,7 @@
         "strImg" : "ItmAirPump01DmgT",
         "strImgNorm" : "ItmAirPump01DmgTn",
         "strPortraitImg" : "ItmAirPump01DmgT",
-        "strCOBase"    : "ItmAirPump02Dmg",
+        "strCOBase"    : "ItmAirPump02ColdTempDmg",
         "strCondLoot"    : "CNDOLAirPump04Dmg",
         "mapGUIPropMaps"   : [
             "Panel A",
@@ -14,11 +14,11 @@
             "Electrical"
         ],
         "mapModeSwitches"    : [
-            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
@@ -38,11 +38,11 @@
             "AirPumpTemperatureCold"
         ],
         "mapModeSwitches"    : [
-            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
@@ -63,11 +63,11 @@
             "AirPumpTemperatureCold"
         ],
         "mapModeSwitches"    : [
-            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
@@ -78,7 +78,7 @@
         "strImgNorm" : "ItmAirPump01OffTn",
         "strImgDamaged" : "ItmAirPump01DmgT",
         "strPortraitImg" : "ItmAirPump01OffT",
-        "strCOBase"    : "ItmAirPump02Off",
+        "strCOBase"    : "ItmAirPump02ColdTempOff",
         "strCondLoot"    : "CNDOLAirPump04",
         "aInteractionsReplace" : [
       "Settocold", "Settohot",
@@ -91,11 +91,11 @@
             "Electrical"
         ],
         "mapModeSwitches"    : [
-            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     },
     {
@@ -106,7 +106,7 @@
         "strImgNorm" : "ItmAirPump01OffTn",
         "strImgDamaged" : "ItmAirPump01DmgT",
         "strPortraitImg" : "ItmAirPump01OffT",
-        "strCOBase"    : "ItmAirPump02OnG",
+        "strCOBase"    : "ItmAirPump02OnGColdTemp",
         "strCondLoot"    : "CNDOLAirPump04",
         "aInteractionsReplace" : [
       "Settocold", "Settohot",
@@ -119,11 +119,11 @@
             "Electrical"
         ],
         "mapModeSwitches"    : [
-            "ItmAirPump02Dmg", "ItmAirPump01DmgColdTemp",
-            "ItmAirPump02DmgLoose", "ItmAirPump01DmgColdTempLoose",
-            "ItmAirPump02Off", "ItmAirPump01ColdTempOff",
-            "ItmAirPump02OnG", "ItmAirPump01OnGColdTemp",
-            "ItmAirPump02OffLoose", "ItmAirPump01ColdTempOffLoose"
+            "ItmAirPump02ColdTempDmg", "ItmAirPump01DmgColdTemp",
+            "ItmAirPump02ColdTempDmgLoose", "ItmAirPump01DmgColdTempLoose",
+            "ItmAirPump02ColdTempOff", "ItmAirPump01ColdTempOff",
+            "ItmAirPump02OnGColdTemp", "ItmAirPump01OnGColdTemp",
+            "ItmAirPump02ColdTempOffLoose", "ItmAirPump01ColdTempOffLoose"
         ]
     }
 ]  

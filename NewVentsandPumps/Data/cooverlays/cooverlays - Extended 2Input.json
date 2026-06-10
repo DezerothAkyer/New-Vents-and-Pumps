@@ -1,0 +1,98 @@
+[
+    {
+        "strName" : "ItmAirPump07EDmg",
+        "strNameFriendly" : "Extended Air Pump (Damaged, Dual)",
+        "strImg" : "ItmAirPump07Dmg",
+        "strImgNorm" : "ItmAirPump07Dmgn",
+        "strImgDamaged" : "",
+        "strPortraitImg" : "ItmAirPump07Dmg",
+        "strCOBase"    : "ItmAirPumpDE1Dmg",
+        "strCondLoot"    : "CNDOLAirPump07",
+        "mapModeSwitches"    : [
+            "ItmAirPumpDE1Dmg", "ItmAirPump07EDmg",
+            "ItmAirPumpDE1DmgLoose", "ItmAirPump07EDmgLoose",
+            "ItmAirPumpDE1Off", "ItmAirPump07EOff",
+            "ItmAirPumpDE1OnG", "ItmAirPump07EOnG",
+            "ItmAirPumpDE1OffLoose", "ItmAirPump07EOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump07EDmgLoose",
+        "strNameFriendly" : "Extended Air Pump (Damaged, Dual, Loose)",
+        "strImg" : "ItmAirPump07DmgLoose",
+        "strImgNorm" : "ItmAirPump07DmgLoosen",
+        "strImgDamaged" : "ItmAirPump07DmgLoose",
+        "strPortraitImg" : "ItmAirPump07DmgLoose",
+        "strCOBase"    : "ItmAirPumpDE1DmgLoose",
+        "strCondLoot"    : "CNDOLAirPump07",
+        "mapSlotEffects" : [
+        "drag", "Blank"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDE1Dmg", "ItmAirPump07EDmg",
+            "ItmAirPumpDE1DmgLoose", "ItmAirPump07EDmgLoose",
+            "ItmAirPumpDE1Off", "ItmAirPump07EOff",
+            "ItmAirPumpDE1OnG", "ItmAirPump07EOnG",
+            "ItmAirPumpDE1OffLoose", "ItmAirPump07EOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump07EOff",
+        "strNameFriendly" : "Extended Air Pump (Dual, Off)",
+        "strImg" : "ItmAirPump07Off",
+        "strImgNorm" : "ItmAirPump07Offn",
+        "strImgDamaged" : "ItmAirPump07Dmg",
+        "strPortraitImg" : "ItmAirPump07Off",
+        "strCOBase"    : "ItmAirPumpDE1Off",
+        "strCondLoot"    : "CNDOLAirPump07",
+        "aInteractionsReplace" : [
+            "DeactivatedualmodeA", "DeactivatedualmodeA",
+            "GUIAirPump", "GUIAirPump"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDE1Dmg", "ItmAirPump07EDmg",
+            "ItmAirPumpDE1DmgLoose", "ItmAirPump07EDmgLoose",
+            "ItmAirPumpDE1Off", "ItmAirPump07EOff",
+            "ItmAirPumpDE1OnG", "ItmAirPump07EOnG",
+            "ItmAirPumpDE1OffLoose", "ItmAirPump07EOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump07EOffLoose",
+        "strNameFriendly" : "Extended Air Pump (Dual, Loose)",
+        "strImg" : "ItmAirPump07OffLoose",
+        "strImgNorm" : "ItmAirPump07OffLoosen",
+        "strImgDamaged" : "ItmAirPump07DmgLoose",
+        "strPortraitImg" : "ItmAirPump07OffLoose",
+        "strCOBase"    : "ItmAirPumpDE1OffLoose",
+        "strCondLoot"    : "CNDOLAirPump07",
+        "mapModeSwitches"    : [
+            "ItmAirPumpDE1Dmg", "ItmAirPump07EDmg",
+            "ItmAirPumpDE1DmgLoose", "ItmAirPump07EDmgLoose",
+            "ItmAirPumpDE1Off", "ItmAirPump07EOff",
+            "ItmAirPumpDE1OnG", "ItmAirPump07EOnG",
+            "ItmAirPumpDE1OffLoose", "ItmAirPump07EOffLoose"
+        ]
+    },
+    {
+        "strName" : "ItmAirPump07EOnG",
+        "strNameFriendly" : "Extended Air Pump (Dual, OnG)",
+        "strImg" : "ItmAirPump07Off",
+        "strImgNorm" : "ItmAirPump07Offn",
+        "strImgDamaged" : "ItmAirPump07Dmg",
+        "strPortraitImg" : "ItmAirPump07Off",
+        "strCOBase"    : "ItmAirPumpDE1OnG",
+        "strCondLoot"    : "CNDOLAirPump07",
+        "aInteractionsReplace" : [
+            "DeactivatedualmodeA", "DeactivatedualmodeA",
+            "GUIAirPump", "GUIAirPump"
+        ],
+        "mapModeSwitches"    : [
+            "ItmAirPumpDE1Dmg", "ItmAirPump07EDmg",
+            "ItmAirPumpDE1DmgLoose", "ItmAirPump07EDmgLoose",
+            "ItmAirPumpDE1Off", "ItmAirPump07EOff",
+            "ItmAirPumpDE1OnG", "ItmAirPump07EOnG",
+            "ItmAirPumpDE1OffLoose", "ItmAirPump07EOffLoose"
+        ]
+    }
+]  

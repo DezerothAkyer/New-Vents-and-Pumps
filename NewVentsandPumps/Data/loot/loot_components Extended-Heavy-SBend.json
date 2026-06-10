@@ -1,0 +1,169 @@
+[
+{
+    "strName" : "ItmAirPumpD1Damage",
+    "aCOs"    : [
+      "ItmAirPumpD1Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpD1LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpD1DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpDE1Damage",
+    "aCOs"    : [
+      "ItmAirPumpDE1Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDE1LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpDE1DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpDT1Damage",
+    "aCOs"    : [
+      "ItmAirPumpDT1Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDT1LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpDT1DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpDTE1Damage",
+    "aCOs"    : [
+      "ItmAirPumpDTE1Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDTE1LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpDTE1DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpD2Damage",
+    "aCOs"    : [
+      "ItmAirPumpD2Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpD2LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpD2DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpDT2Damage",
+    "aCOs"    : [
+      "ItmAirPumpDT2Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDT2LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpDT2DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpD3Damage",
+    "aCOs"    : [
+      "ItmAirPumpD3Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpD3LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpD3DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+
+{
+    "strName" : "ItmAirPumpDT3Damage",
+    "aCOs"    : [
+      "ItmAirPumpDT3Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAirPumpDT3LooseDamage",
+    "aCOs"    : [
+      "ItmAirPumpDT3DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAirPumpComponents=1.0x1"
+    ],
+    "strType" : "item"
+  }
+]

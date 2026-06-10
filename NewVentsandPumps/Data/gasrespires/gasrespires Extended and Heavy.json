@@ -1,0 +1,77 @@
+[
+
+   {
+    "strName": "AirPump04",
+    "strPtA": "GasInputB",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.001158,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  },
+
+   {
+    "strName": "AirPump05",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.004632,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  },
+
+   {
+    "strName": "AirPump06",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.002895,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  },
+
+   {
+    "strName": "AirPump07",
+    "strPtA": "GasInputB",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.000579,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  },
+
+   {
+    "strName": "AirPump08",
+    "strPtA": "GasInput",
+    "strPtB": "GasOutput",
+    "strCTA": "TIsAirtightNoHuman",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.002316,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTMain": "TIsReadyPumpAir",
+    "strAudioEmitterAir": "AirPumpActiveAir",
+    "strAudioEmitterPump": "AirPumpActive",
+    "bAllowExternA": true,
+    "bAllowExternB": true
+  }
+]
