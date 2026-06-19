@@ -1,0 +1,12 @@
+[
+  { "strName" : "ACTRTACO2Dmg", "aCOs" : [ "MSRTACO2Dmg=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRTACO2DmgLoose", "aCOs" : [ "MSRTACO2DmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRTAN2Dmg", "aCOs" : [ "MSRTAN2Dmg=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRTAN2DmgLoose", "aCOs" : [ "MSRTAN2DmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRTAO2Dmg", "aCOs" : [ "MSRTAO2Dmg=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRTAO2DmgLoose", "aCOs" : [ "MSRTAO2DmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTCanister01Dmg", "aCOs" : [ "MSCanister01Dmg=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTCanister01DmgLoose", "aCOs" : [ "MSCanister01DmgLoose=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" }
+
+]

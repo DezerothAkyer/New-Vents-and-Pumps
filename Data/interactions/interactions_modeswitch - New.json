@@ -1,0 +1,83 @@
+[
+      {
+        "strName" : "MSRTACO2Dmg",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTACO2Dmg"
+      },
+      {
+        "strName" : "MSRTACO2DmgLoose",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTACO2DmgLoose"
+      },
+      {
+        "strName" : "MSRTAN2Dmg",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTAN2Dmg"
+      },
+      {
+        "strName" : "MSRTAN2DmgLoose",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTAN2DmgLoose"
+      },
+      {
+        "strName" : "MSRTAO2Dmg",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTAO2Dmg"
+      },
+      {
+        "strName" : "MSRTAO2DmgLoose",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmRTAO2DmgLoose"
+      },
+
+  {
+        "strName" : "MSCanister01Dmg",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmCanister01Dmg"
+      },
+      {
+        "strName" : "MSCanister01DmgLoose",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmCanister01DmgLoose"
+      }
+]

@@ -1,0 +1,19 @@
+[
+  { "strName" : "ItmRTACO2", "aCOs" : [ "ItmRTACO2=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTACO2Loose", "aCOs" : [ "ItmRTACO2Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTACO2Dmg", "aCOs" : [ "ItmRTACO2Dmg=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTACO2DmgLoose", "aCOs" : [ "ItmRTACO2DmgLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAN2", "aCOs" : [ "ItmRTAN2=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAN2Loose", "aCOs" : [ "ItmRTAN2Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAN2Dmg", "aCOs" : [ "ItmRTAN2Dmg=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAN2DmgLoose", "aCOs" : [ "ItmRTAN2DmgLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAO2", "aCOs" : [ "ItmRTAO2=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAO2Loose", "aCOs" : [ "ItmRTAO2Loose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAO2Dmg", "aCOs" : [ "ItmRTAO2Dmg=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmRTAO2DmgLoose", "aCOs" : [ "ItmRTAO2DmgLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+
+  { "strName" : "ItmCanister01", "aCOs" : [ "ItmCanister01=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmCanister01Dmg", "aCOs" : [ "ItmCanister01Dmg=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+  { "strName" : "ItmCanister01DmgLoose", "aCOs" : [ "ItmCanister01DmgLoose=1.0x1" ], "aLoots" : [ ], "strType" : "item" }
+
+]

@@ -1,0 +1,227 @@
+
+[
+  {
+    "strName" : "ItmRTACO2",
+    "strNameShort" : "CO2 Can",
+    "strNameFriendly" : "CO2 Canister",
+    "strItemDef" : "ItmCanister04",
+    "strType"    : "Item",
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsVesselCO2=1.0x1",
+      "StatBasePrice=1.0x410.0",
+      "StatGasMolCO2=1.0x0.01",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x293.0",
+      "StatInstallProgressMax=1.0x150",
+      "StatUninstallProgressMax=1.0x150",
+      "StatRepairProgressMax=1.0x250",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x115.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRTACO2Dmg,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmCanister04",
+    "jsonPI"            : null,
+    "strAudioEmitter" : "ItmMetalDrumSound"
+  },
+  {
+    "strName" : "ItmRTACO2Dmg",
+    "strNameShort" : "CO2 Can",
+    "strNameFriendly" : "CO2 Canister (Damaged)",
+    "strItemDef" : "ItmCanister04Dmg",
+    "strType"    : "Item",
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsVesselCO2=1.0x1",
+      "StatBasePrice=1.0x53.0",
+      "StatGasMolCO2=1.0x0.01",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x293.0",
+      "StatInstallProgressMax=1.0x150",
+      "StatUninstallProgressMax=1.0x150",
+      "StatRepairProgressMax=1.0x450",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x115.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "leak,0,0"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,self,leak,0.01",
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "ItmCanister04Dmg",
+    "jsonPI"            : null,
+    "strAudioEmitter" : "ItmCanisterDmgSound"
+  },
+  {
+    "strName" : "ItmRTACO2DmgLoose",
+    "strNameShort" : "CO2 Can",
+    "strNameFriendly" : "CO2 Canister (Damaged, Loose)",
+    "strItemDef" : "ItmCanister04DmgLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsVesselCO2=1.0x1",
+      "StatBasePrice=1.0x53.0",
+      "StatGasMolCO2=1.0x0.01",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x293.0",
+      "StatInstallProgressMax=1.0x150",
+      "StatUninstallProgressMax=1.0x150",
+      "StatRepairProgressMax=1.0x450",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x115.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "mapPoints"      : [
+      "leak,0,0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "GasExchange,self,leak,0.01",
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmCanister04DmgLoose",
+    "strAudioEmitter" : "ItmCanisterDmgSound"
+  },
+  {
+    "strName" : "ItmRTACO2Loose",
+    "strNameShort" : "CO2 Can",
+    "strNameFriendly" : "CO2 Canister (Loose)",
+    "strItemDef" : "ItmCanister04Loose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsVesselCO2=1.0x1",
+      "StatBasePrice=1.0x410.0",
+      "StatGasMolCO2=1.0x0.01",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x293.0",
+      "StatInstallProgressMax=1.0x150",
+      "StatUninstallProgressMax=1.0x150",
+      "StatRepairProgressMax=1.0x250",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x115.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x4",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRTACO2DmgLoose,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "strPortraitImg"  : "ItmCanister04Loose",
+    "strAudioEmitter" : "ItmMetalDrumSound"
+  }
+]
